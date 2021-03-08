@@ -402,9 +402,11 @@ td {
     .header nav a {
         display: block;
         margin: 0;
-        text-align: center;
     }
 
+    .header nav a.char img{
+        max-width: 100%;
+    }
     .fa.tit-fa {
         margin: 0 0 2em;
     }
