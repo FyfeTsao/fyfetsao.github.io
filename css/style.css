@@ -103,6 +103,9 @@ nav a {
     display: inline-block;
     margin: 0 2em 0 0;
 }
+nav .page-number{
+    margin: 0 2em 0 0;
+}
 
 footer {
     clear: both;
@@ -111,6 +114,15 @@ footer {
     font-size: .75em;
     letter-spacing: .5em;
     text-align: right;
+}
+
+.portal{
+    padding: 2em;
+    display: inline-block;
+}
+.portal h2{
+    font-weight: normal;
+    letter-spacing: .2em;
 }
 
 .content h2 {
@@ -274,12 +286,10 @@ td {
     letter-spacing: -.02em;
 }
 
-.l .i .upper .lan-code {
-    font-family: "Lucida Console";
-    font-style: normal;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-right: 1em;
+em.lan-code {
+    font: normal small-caps bold .75em "Noto Sans Mono","Lucida Console";
+    padding: 0 .6em;
+    background: #ccc;
     color: #000;
 }
 
@@ -407,6 +417,11 @@ td {
     .header nav a.char img{
         max-width: 100%;
     }
+
+    footer{
+        text-align: center;
+    }
+
     .fa.tit-fa {
         margin: 0 0 2em;
     }
@@ -439,4 +454,14 @@ td {
         display: block;
         margin: 0;
     }
+}
+
+.bgcolor-ExtraLightTurquoise{
+    background: #cdf0e6;
+}
+.bgcolor-ExtraLightYellow{
+    background: #fff0d2;
+}
+.bgcolor-ExtraLightPurple{
+    background: #d7d2f0;
 }
