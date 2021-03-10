@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 :lang(en), :lang(en-GB), :lang(en-US), :lang(en-IE), :lang(de), :lang(de-CH), :lang(de-AT), :lang(sv), :lang(da), :lang(is), :lang(fi), :lang(nb), :lang(fr), :lang(fr-BE), :lang(es), :lang(es-AR), :lang(pt), :lang(pt-BR), :lang(it), :lang(ro), :lang(pl), :lang(ru), :lang(ru-RU), :lang(mn-MN), :lang(el), :lang(tr), :lang(tl), :lang(kk), :lang(vi) {
-    font-family: "Noto Sans", "Segoe UI", "Arimo", sans-serif;
+    font-family: "Noto Sans", "Segoe UI", sans-serif;
 }
 
 :lang(zh), :lang(zh-TW), :lang(zh-HK) {
@@ -116,14 +116,6 @@ footer {
     text-align: right;
 }
 
-.portal{
-    padding: 2em;
-    display: inline-block;
-}
-.portal h2{
-    font-weight: normal;
-    letter-spacing: .2em;
-}
 
 .content h2 {
     font-size: 2em;
@@ -150,7 +142,7 @@ footer {
 
 .content h3 sub {
     display: block;
-    font: .5em "Noto Sans Mono";
+    font: .5em "Noto Sans Mono", monospace;
     letter-spacing: 0;
 }
 
@@ -160,6 +152,17 @@ footer {
 
 .content ul {
     margin-bottom: 4em;
+}
+
+
+.portal{
+    padding: 2em;
+    display: inline-block;
+}
+.portal h2{
+    font-size: 1.5em;
+    font-weight: normal;
+    letter-spacing: .2em;
 }
 
 #page-nav {
@@ -287,16 +290,19 @@ td {
 }
 
 em.lan-code {
-    font: normal small-caps bold .75em "Noto Sans Mono","Lucida Console";
+    font: normal small-caps bold .75em "Noto Sans Mono",monospace;
     padding: 0 .6em;
-    background: #ccc;
+    background: #ebebeb;
     color: #000;
 }
 
 .l .i span {
     margin-right: 1.5em;
 }
-
+.l .i p{
+    letter-spacing: 0;
+    margin-top: 1em;
+}
 .l .series {
     font-size: .8em;
     line-height: 1.25;
@@ -449,6 +455,10 @@ em.lan-code {
     }
 }
 
+
+.bgcolor-ExtraLightGray{
+    background: #ebebeb;
+}
 .bgcolor-ExtraLightTurquoise{
     background: #cdf0e6;
 }
