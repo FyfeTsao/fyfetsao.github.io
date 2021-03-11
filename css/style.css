@@ -317,6 +317,11 @@ em.lan-code {
     font-style: italic;
 }
 
+.l img{
+    display: block;
+    margin-bottom: .8em;
+}
+
 .chk.il li {
     float: left;
     padding-bottom: .62em;
@@ -431,10 +436,6 @@ em.lan-code {
         margin: 0 25% 0 0;
     }
 
-    .l .ico {
-        left: -1em;
-    }
-
     .chk.il li {
         float: none;
         padding-bottom: .5em;
@@ -452,6 +453,10 @@ em.lan-code {
     .l .i span {
         display: block;
         margin: 0;
+    }
+
+    .l img{
+        max-width: 100%;
     }
 }
 
