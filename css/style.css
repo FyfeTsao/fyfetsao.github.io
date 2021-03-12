@@ -343,6 +343,13 @@ em.lan-code {
     display: inline;
 }
 
+.chk.il h4 em{
+    font-size: .75em;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: -.05em;
+}
+
 .stats {
     clear: both;
 }
@@ -448,6 +455,10 @@ em.lan-code {
         left: 0;
         top: 0;
         width: 1.1em;
+    }
+
+    .chk.il h4 em {
+        display: block;
     }
 
     .l .i span {
