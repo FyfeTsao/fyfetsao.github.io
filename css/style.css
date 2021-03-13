@@ -19,10 +19,6 @@ a {
     text-decoration: none;
 }
 
-sup {
-    font-size: .62em;
-}
-
 body {
     color: #000;
     font-family: "Noto Sans", sans-serif;
@@ -103,7 +99,8 @@ nav a {
     display: inline-block;
     margin: 0 2em 0 0;
 }
-nav .page-number{
+
+nav .page-number {
     margin: 0 2em 0 0;
 }
 
@@ -115,7 +112,6 @@ footer {
     letter-spacing: .5em;
     text-align: right;
 }
-
 
 .content h2 {
     font-size: 2em;
@@ -155,11 +151,12 @@ footer {
 }
 
 
-.portal{
-    padding: 2em;
+.portal {
+    padding: 1.5em;
     display: inline-block;
 }
-.portal h2{
+
+.portal h2 {
     font-size: 1.5em;
     font-weight: normal;
     letter-spacing: .2em;
@@ -290,7 +287,7 @@ td {
 }
 
 em.lan-code {
-    font: normal small-caps bold .75em "Noto Sans Mono",monospace;
+    font: normal small-caps bold .75em "Noto Sans Mono", monospace;
     padding: 0 .6em;
     background: #ebebeb;
     color: #000;
@@ -299,10 +296,12 @@ em.lan-code {
 .l .i span {
     margin-right: 1.5em;
 }
-.l .i p{
+
+.l .i p {
     letter-spacing: 0;
     margin-top: 1em;
 }
+
 .l .series {
     font-size: .8em;
     line-height: 1.25;
@@ -317,7 +316,7 @@ em.lan-code {
     font-style: italic;
 }
 
-.l img{
+.l img {
     display: block;
     margin-bottom: .8em;
 }
@@ -330,24 +329,17 @@ em.lan-code {
     position: relative;
 }
 
-.chk.il .fa {
-    position: absolute;
-    left: -1em;
-    top: .3em;
-}
-
 .chk.il h4 {
     font-size: 1.2em;
     line-height: 1;
-    letter-spacing: -.05em;
+    letter-spacing: -.055em;
     display: inline;
 }
 
-.chk.il h4 em{
-    font-size: .75em;
+.chk.il h4 em {
+    font-size: .8em;
     font-weight: normal;
     font-style: normal;
-    letter-spacing: -.05em;
 }
 
 .stats {
@@ -425,11 +417,11 @@ em.lan-code {
         margin: 0;
     }
 
-    .header nav a.char img{
+    .header nav a.char img {
         max-width: 100%;
     }
 
-    footer{
+    footer {
         text-align: center;
     }
 
@@ -466,28 +458,31 @@ em.lan-code {
         margin: 0;
     }
 
-    .l img{
+    .l img {
         max-width: 100%;
     }
 }
 
 
-.bgcolor-ExtraLightGray{
+.bgcolor-ExtraLightGray {
     background: #ebebeb;
 }
-.bgcolor-ExtraLightTurquoise{
+
+.bgcolor-ExtraLightTurquoise {
     background: #cdf0e6;
 }
-.bgcolor-ExtraLightYellow{
+
+.bgcolor-ExtraLightYellow {
     background: #fff0d2;
 }
-.bgcolor-ExtraLightPurple{
+
+.bgcolor-ExtraLightPurple {
     background: #d7d2f0;
 }
 
 
 /*svg icons*/
-.si{
+.si {
     width: 1em;
     height: 1em;
     display: inline-block;
