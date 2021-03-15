@@ -158,8 +158,11 @@ footer {
 
 .portal h2 {
     font-size: 1.5em;
-    font-weight: normal;
-    letter-spacing: .2em;
+    letter-spacing: .15em;
+}
+
+.portal a {
+    color: #000;
 }
 
 #page-nav {
@@ -178,7 +181,6 @@ table .title {
     font-weight: bold;
     letter-spacing: -.05em;
 }
-
 
 table p {
     text-indent: 1em;
@@ -222,10 +224,6 @@ td {
 
 .color-mandarine {
     color: #f08300;
-}
-
-.color-residence {
-    color: #ba2636;
 }
 
 .text li {
@@ -324,7 +322,7 @@ em.lan-code {
 .chk.il li {
     float: left;
     padding-bottom: .62em;
-    margin-right: 2.5em;
+    margin-right: 2em;
     letter-spacing: -.02em;
     position: relative;
 }
@@ -332,14 +330,15 @@ em.lan-code {
 .chk.il h4 {
     font-size: 1.2em;
     line-height: 1;
-    letter-spacing: -.055em;
+    letter-spacing: -.075em;
     display: inline;
 }
 
 .chk.il h4 em {
-    font-size: .8em;
+    font-size: .75em;
     font-weight: normal;
     font-style: normal;
+    letter-spacing: -.05em;
 }
 
 .stats {
@@ -463,23 +462,17 @@ em.lan-code {
     }
 }
 
-
-.bgcolor-ExtraLightGray {
-    background: #ebebeb;
+.bgcolor-Light-Turquoise {
+    background: #87d7cd;
 }
 
-.bgcolor-ExtraLightTurquoise {
-    background: #cdf0e6;
+.bgcolor-Light-Yellow {
+    background: #ffdc8c;
 }
 
-.bgcolor-ExtraLightYellow {
-    background: #fff0d2;
+.bgcolor-Light-Purple {
+    background: #b48ccd;
 }
-
-.bgcolor-ExtraLightPurple {
-    background: #d7d2f0;
-}
-
 
 /*svg icons*/
 .si {
