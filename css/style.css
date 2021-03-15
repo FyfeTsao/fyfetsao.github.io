@@ -377,12 +377,6 @@ em.lan-code {
     color: #fff;
 }
 
-.fa.tit-fa {
-    display: block;
-    font-size: 3em;
-    margin: 0 0 3em;
-}
-
 @media screen and (min-width: 960px) {
 
     .header {
@@ -424,10 +418,6 @@ em.lan-code {
         text-align: center;
     }
 
-    .fa.tit-fa {
-        margin: 0 0 2em;
-    }
-
     .gallery li {
         float: left;
         width: 25%;
@@ -439,17 +429,6 @@ em.lan-code {
         padding-bottom: .5em;
         margin-right: 0;
         letter-spacing: 0;
-    }
-
-    .chk.il .fa {
-        position: relative;
-        left: 0;
-        top: 0;
-        width: 1.1em;
-    }
-
-    .chk.il h4 em {
-        display: block;
     }
 
     .l .i span {
