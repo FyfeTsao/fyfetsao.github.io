@@ -15,7 +15,7 @@ hr {
 }
 
 a {
-    color: #808080;
+    color: #8c8c8c;
     text-decoration: none;
 }
 
@@ -153,7 +153,6 @@ footer {
 
 .portal {
     padding: 1.5em;
-    display: inline-block;
 }
 
 .portal h2 {
@@ -222,9 +221,7 @@ td {
     letter-spacing: -.02em;
 }
 
-.color-mandarine {
-    color: #f08300;
-}
+
 
 .text li {
     padding: 2em 0;
@@ -276,7 +273,7 @@ td {
     font-size: .9em;
     margin-bottom: 1.2em;
     letter-spacing: .2em;
-    color: #333;
+    color: #4d4d4d;
 }
 
 .l .i .upper {
@@ -316,6 +313,7 @@ em.lan-code {
 
 .l img {
     display: block;
+    max-width: 100%;
     margin-bottom: .8em;
 }
 
@@ -340,6 +338,21 @@ em.lan-code {
     font-style: normal;
     letter-spacing: -.05em;
 }
+
+/* projects list */
+
+.l-p li{
+    float: left;
+    margin: 0 10% 1em 0;
+}
+
+.l-p li a{
+    display: block;
+}
+.l-p h3{
+    font-size: 1.2em;
+}
+
 
 .stats {
     clear: both;
@@ -389,13 +402,24 @@ em.lan-code {
 
     .content {
         position: relative;
-        width: 70%;
-        left: 25%;
-        padding: 4em 0;
+        width: 75%;
+        padding: 4em 12.5%;
     }
 
     .l .series a {
         white-space: nowrap;
+    }
+
+    .l .img-c {
+        float: right;
+        width: 40%;
+        margin-right: 10%;
+    }
+
+    .l .txt-c {
+        float: right;
+        width: 40%;
+        margin-right: 10%;
     }
 }
 
@@ -418,6 +442,10 @@ em.lan-code {
         text-align: center;
     }
 
+    .portal nav a {
+        display: block;
+    }
+
     .gallery li {
         float: left;
         width: 25%;
@@ -436,9 +464,11 @@ em.lan-code {
         margin: 0;
     }
 
-    .l img {
-        max-width: 100%;
-    }
+
+}
+
+.color-mandarine {
+    color: #f08300;
 }
 
 .bgcolor-Light-Turquoise {
