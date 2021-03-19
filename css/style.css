@@ -223,7 +223,6 @@ td {
 }
 
 
-
 .text li {
     padding: 2em 0;
     position: relative;
@@ -265,9 +264,13 @@ td {
 }
 
 .l.logbook-l .title {
-    font-size: 1.62em;
+    font-size: 1.4em;
     font-weight: normal;
-    letter-spacing: .05em;
+}
+
+.l.logbook-l li {
+    float: left;
+    padding-right: 3em;
 }
 
 .l .i {
@@ -342,15 +345,12 @@ em.lan-code {
 
 /* projects list */
 
-.l-p li{
+.l-p li {
     float: left;
     margin: 0 10% 1em 0;
 }
 
-.l-p li a{
-    display: block;
-}
-.l-p h3{
+.l-p h3 {
     font-size: 1.2em;
 }
 
@@ -464,8 +464,6 @@ em.lan-code {
         display: block;
         margin: 0;
     }
-
-
 }
 
 .color-mandarine {
