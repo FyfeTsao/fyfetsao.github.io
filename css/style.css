@@ -323,8 +323,7 @@ em.lan-code {
 
 .chk.il li {
     float: left;
-    height: 1.5em;
-    line-height: 1.5em;
+    min-height: 1.5em;
     padding-bottom: .62em;
     margin-right: 2em;
     letter-spacing: -.02em;
