@@ -263,9 +263,9 @@ td {
 }
 
 .l .title {
-    font-size: 1.3em;
-    line-height: 1.25em;
-    margin-bottom: .4em;
+    font-size: 1.4em;
+    line-height: 1.2;
+    margin-bottom: .5em;
 }
 
 .l.logbook-l .title {
@@ -283,11 +283,6 @@ td {
     margin-bottom: 1.2em;
     letter-spacing: .2em;
     color: #4d4d4d;
-}
-
-.l .i .upper {
-    font-size: 1em;
-    letter-spacing: -.02em;
 }
 
 em.lan-code {
