@@ -316,7 +316,7 @@ em.lan-code {
 }
 
 .l img {
-    display: block;
+    display: inline-block;
     max-width: 100%;
     margin-bottom: .8em;
 }
@@ -344,17 +344,35 @@ em.lan-code {
     letter-spacing: -.05em;
 }
 
+.project-info{
+    padding: 4em 0;
+    margin-bottom: 8em;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+
+.project-info .intro{
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+}
 /* projects list */
 
 .l-p li {
     float: left;
-    margin: 0 10% 1em 0;
+    margin: 0 10% 4em 0;
 }
 
 .l-p h3 {
     font-size: 1.2em;
 }
 
+.l-p img.cover{
+    display: block;
+    border: 1px solid #ccc;
+    padding: 4px;
+    margin-bottom: 1em;
+}
 
 .stats {
     clear: both;
@@ -414,14 +432,13 @@ em.lan-code {
 
     .l .img-c {
         float: right;
-        width: 40%;
-        margin-right: 10%;
+        width: 43%;
+        margin-left: 14%;
     }
 
     .l .txt-c {
-        float: right;
-        width: 40%;
-        margin-right: 10%;
+        float: left;
+        width: 43%;
     }
 }
 
