@@ -162,7 +162,7 @@ sup{
 
 .portal h2 {
     font-size: 1.4em;
-    letter-spacing: .175em;
+    letter-spacing: .2em;
     margin-bottom: .5em;
 }
 
@@ -321,6 +321,16 @@ em.lan-code {
     margin-bottom: .8em;
 }
 
+.l .txt-c .tags{
+    margin-top: .8em;
+    font-size: .9em;
+    letter-spacing: .2em;
+    color: #4d4d4d;
+}
+.l .txt-c .tags span{
+    margin-right: 1.5em;
+}
+
 .chk.il li {
     float: left;
     min-height: 1.5em;
@@ -347,18 +357,22 @@ em.lan-code {
 .project-info{
     padding: 4em 0;
     margin-bottom: 8em;
-    border-top: 2px solid #333;
-    border-bottom: 2px solid #333;
+    border-top: .25em solid #333;
+    border-bottom: .25em solid #333;
 }
 
 .project-info h2 :lang(en){
     font-family: "Arimo", sans-serif;
 }
+
+.project-info p{
+    margin-bottom: .5em;
+}
 /* projects list */
 
 .l-p li {
     float: left;
-    margin: 0 10% 4em 0;
+    margin: 0 10% 2em 0;
 }
 
 .l-p h3 {
@@ -408,12 +422,15 @@ em.lan-code {
     color: #fff;
 }
 
-.header nav a.pt{
+.header nav a{
     color: #000;
     font: bold 1em "Arimo", sans-serif;
-    font-weight: bold;
-    letter-spacing: .175em;
-    padding-top: 1em;
+    letter-spacing: .2em;
+    display: block;
+    margin-bottom: 1em;
+}
+.header nav a.img{
+    margin-bottom: 2em;
 }
 
 @media screen and (min-width: 960px) {
@@ -422,8 +439,13 @@ em.lan-code {
         padding: 4em 0 8em;
     }
 
-    .header nav a.por {
+    .header .portrait {
+        float: left;
         margin: 0 6em 0 0;
+    }
+
+    .header nav{
+        float: left;
     }
 
     .content {
@@ -451,16 +473,22 @@ em.lan-code {
 @media screen and (max-width: 959px) {
 
     .header {
-        padding: 2em 0 4em;
+        padding: 2em 0 6em;
     }
 
-    .header nav a {
+    .header .portrait {
+        display: none;
+    }
+
+    .header nav a img {
         display: block;
-        margin: 0;
+        max-width: 100%;
     }
 
     .header nav a.char img {
         max-width: 100%;
+        margin-bottom: 1em;
+        display: block;
     }
 
     footer {
