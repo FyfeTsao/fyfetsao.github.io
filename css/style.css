@@ -423,10 +423,10 @@ em.lan-code {
 }
 
 .header nav a{
+    display: block;
     color: #000;
     font: bold 1em "Arimo", sans-serif;
-    letter-spacing: .2em;
-    display: block;
+    letter-spacing: .4em;
     margin-bottom: 1em;
 }
 .header nav a.img{
