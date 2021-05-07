@@ -142,7 +142,7 @@ footer {
     letter-spacing: 0;
 }
 
-sup{
+sup {
     display: block;
     font-weight: normal;
 }
@@ -233,24 +233,20 @@ td {
     position: relative;
 }
 
-.gallery li {
-    float: left;
-    width: 12.5%;
-    margin: 0 12.5% 0 0;
+.gallery {
+    display: -webkit-flex;
+    flex-flow: row wrap;
 }
 
 .gallery li a {
     display: block;
-    width: 100%;
-    padding: 1em;
-    margin-bottom: 1em;
-    background: #ccc;
 }
 
-.gallery li img {
-    display: block;
-    width: 100%;
+.gallery li a h4 {
+    color: #000;
 }
+
+
 
 /* 201708：uniformed style for list, using class ".l" */
 .l {
@@ -321,15 +317,29 @@ em.lan-code {
     margin-bottom: .8em;
 }
 
-.l .txt-c .tags{
+.l .txt-c .tags {
     margin-top: .8em;
     font-size: .9em;
     letter-spacing: .2em;
     color: #4d4d4d;
 }
-.l .txt-c .tags span{
+
+.l .txt-c .tags span {
     margin-right: 1.5em;
 }
+
+.l .color-block {
+    font: bold 1.2em "Arimo", sans-serif;
+    float: left;
+    padding: 2em;
+}
+
+.l .color-block .color-code {
+    font: normal .75em "Noto Sans Mono", monospace;
+    text-transform: uppercase;
+    display: block;
+}
+
 
 .chk.il li {
     float: left;
@@ -354,23 +364,22 @@ em.lan-code {
     letter-spacing: -.05em;
 }
 
-.project-info{
+.project-info {
     padding: 4em 0;
     margin-bottom: 8em;
     border-top: .25em solid #333;
     border-bottom: .25em solid #333;
 }
 
-.project-info h2 :lang(en){
+.project-info h2 :lang(en) {
     font-family: "Arimo", sans-serif;
 }
 
-.project-info p{
-    font-size: 1.1em;
+.project-info p {
     font-weight: bold;
-    color: #4d4d4d;
     margin-bottom: .5em;
 }
+
 /* projects list */
 
 .l-p li {
@@ -382,7 +391,7 @@ em.lan-code {
     font-size: 1.2em;
 }
 
-.l-p img.cover{
+.l-p img.cover {
     display: block;
     border: 1px solid #ccc;
     padding: 4px;
@@ -425,14 +434,15 @@ em.lan-code {
     color: #fff;
 }
 
-.header nav a{
+.header nav a {
     display: block;
     color: #000;
     font: bold 1em "Arimo", sans-serif;
     letter-spacing: .4em;
     margin-bottom: 1em;
 }
-.header nav a.img{
+
+.header nav a.img {
     margin-bottom: 2em;
 }
 
@@ -447,7 +457,7 @@ em.lan-code {
         margin: 0 6em 0 0;
     }
 
-    .header nav{
+    .header nav {
         float: left;
     }
 
@@ -470,6 +480,14 @@ em.lan-code {
     .l .txt-c {
         float: right;
         width: 42%;
+    }
+
+    .gallery{
+        margin-right: -4%;
+    }
+    .gallery li {
+        width: 16%;
+        margin: 0 4% 0 0;
     }
 }
 
@@ -502,10 +520,13 @@ em.lan-code {
         display: block;
     }
 
+    .gallery {
+        margin-right: -8.3%;
+    }
+
     .gallery li {
-        float: left;
         width: 25%;
-        margin: 0 25% 0 0;
+        margin: 0 8.3% 0 0;
     }
 
     .chk.il li {
@@ -519,6 +540,62 @@ em.lan-code {
         display: block;
         margin: 0;
     }
+}
+
+.color-White {
+    color: #fff;
+}
+
+.color-Grey-EL {
+    color: #ebebeb;
+}
+
+.color-Grey-L {
+    color: #ccc;
+}
+
+.color-Grey-R {
+    color: #8c8c8c;
+}
+
+.color-Grey-D {
+    color: #737373;
+}
+
+.color-Grey-ED {
+    color: #4d4d4d;
+}
+
+.color-Black {
+    color: #000;
+}
+
+.bgcolor-White {
+    background: #fff;
+}
+
+.bgcolor-Grey-EL {
+    background: #ebebeb;
+}
+
+.bgcolor-Grey-L {
+    background: #ccc;
+}
+
+.bgcolor-Grey-R {
+    background: #8c8c8c;
+}
+
+.bgcolor-Grey-D {
+    background: #737373;
+}
+
+.bgcolor-Grey-ED {
+    background: #4d4d4d;
+}
+
+.bgcolor-Black {
+    background: #000;
 }
 
 .bgcolor-Light-Turquoise {
