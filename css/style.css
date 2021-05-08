@@ -244,14 +244,16 @@ td {
     overflow: hidden;
 }
 
+
 .gallery li a {
     display: block;
 }
 
 .gallery li a h4 {
     color: #000;
+    line-height: 1.2;
+    margin-bottom: .4em;
 }
-
 
 
 /* 201708：uniformed style for list, using class ".l" */
@@ -489,11 +491,12 @@ em.lan-code {
     }
 
     .gallery{
-        margin-right: -4%;
+        margin-right: -2.77%;
     }
+
     .gallery li {
-        width: 16%;
-        margin: 0 4% 0 0;
+        width: 13.89%;
+        margin-right: 2.77%;
     }
 }
 
@@ -526,14 +529,6 @@ em.lan-code {
         display: block;
     }
 
-    .gallery {
-        margin-right: -8.3%;
-    }
-
-    .gallery li {
-        width: 25%;
-        margin: 0 8.3% 0 0;
-    }
 
     .chk.il li {
         float: none;
@@ -545,6 +540,15 @@ em.lan-code {
     .l .i span {
         display: block;
         margin: 0;
+    }
+
+    .gallery{
+        margin-right: -5.5%;
+    }
+
+    .gallery li {
+        width: 27.8%;
+        margin-right: 5.5%;
     }
 }
 
