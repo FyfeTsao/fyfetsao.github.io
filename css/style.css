@@ -386,6 +386,7 @@ em.lan-code {
 
 .project-info h2 :lang(en) {
     font-family: "Arimo", sans-serif;
+    text-transform: uppercase;
 }
 
 .project-info p {
