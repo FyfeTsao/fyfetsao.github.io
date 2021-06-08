@@ -294,7 +294,6 @@ td {
 
 em.lan-code {
     font: normal small-caps bold .75em "Noto Sans Mono", monospace;
-    padding: 0 1em 0 0;
     color: #ccc;
 }
 
@@ -402,6 +401,11 @@ em.lan-code {
     margin: 0 8em 2em 0;
 }
 
+.l-p a {
+    display: block;
+    color: #4d4d4d;
+}
+
 .l-p img.cover {
     display: block;
     margin-bottom: 1em;
@@ -412,9 +416,6 @@ em.lan-code {
     margin-bottom: 0;
 }
 
-.l-p a {
-    color: #4d4d4d;
-}
 
 
 .stats {
