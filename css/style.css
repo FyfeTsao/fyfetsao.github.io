@@ -241,7 +241,6 @@ td {
     overflow: hidden;
 }
 
-
 .gallery li a {
     display: block;
 }
@@ -275,7 +274,7 @@ td {
     margin-bottom: .5em;
 }
 
-.l.logbook-l{
+.l.logbook-l {
     display: flex;
     display: -webkit-flex;
     flex-flow: row wrap;
@@ -415,7 +414,6 @@ em.lan-code {
     font-size: 1.2em;
     margin-bottom: 0;
 }
-
 
 
 .stats {
