@@ -234,7 +234,7 @@ td {
     position: relative;
 }
 
-.gallery {
+.gallery,.gallery-xiaosheng {
     display: flex;
     display: -webkit-flex;
     flex-flow: row wrap;
@@ -245,7 +245,7 @@ td {
     display: block;
 }
 
-.gallery li a h4 {
+.gallery li a h4,.gallery-xiaosheng li a h4 {
     color: #000;
     line-height: 1.2;
     margin-bottom: .4em;
