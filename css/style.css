@@ -468,8 +468,8 @@ em.lan-code {
     letter-spacing: .5em;
 }
 
-.header nav a.img {
-    margin-bottom: 2em;
+.header nav a.logo {
+    margin: 4em 0;
 }
 
 @media screen and (min-width: 960px) {
