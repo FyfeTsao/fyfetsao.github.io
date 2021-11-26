@@ -150,6 +150,7 @@ sup {
 
 .content h4 {
     font-size: 1.2em;
+    margin-bottom: .3em;
 }
 
 .content ul {
@@ -234,7 +235,7 @@ td {
     position: relative;
 }
 
-.gallery,.gallery-xiaosheng {
+.gallery {
     display: flex;
     display: -webkit-flex;
     flex-flow: row wrap;
@@ -245,7 +246,7 @@ td {
     display: block;
 }
 
-.gallery li a h4,.gallery-xiaosheng li a h4 {
+.gallery li a h4 {
     color: #000;
     line-height: 1.2;
     margin-bottom: .4em;
@@ -284,7 +285,7 @@ td {
     padding-right: 3em;
 }
 
-.l .i {
+li .i {
     font-size: .9em;
     margin-bottom: 1.2em;
     letter-spacing: .2em;
@@ -296,11 +297,11 @@ em.lan-code {
     color: #ccc;
 }
 
-.l .i span {
+li .i span {
     margin-right: 1.5em;
 }
 
-.l .i p {
+li .i p {
     letter-spacing: 0;
     margin-top: 1em;
 }
@@ -388,7 +389,7 @@ em.lan-code {
     margin-bottom: .5em;
 }
 
-/* l-p: list of projects */
+/* l-p: list with picture as the main visual element, e.g. project list, xiaosheng list, illustration list */
 
 .l-p {
     display: flex;
@@ -405,16 +406,10 @@ em.lan-code {
     color: #4d4d4d;
 }
 
-.l-p img.cover {
+.l-p img {
     display: block;
     margin-bottom: 1em;
 }
-
-.l-p h3 {
-    font-size: 1.2em;
-    margin-bottom: 0;
-}
-
 
 .stats {
     clear: both;
@@ -536,7 +531,7 @@ em.lan-code {
         letter-spacing: 0;
     }
 
-    .l .i span {
+    li .i span {
         display: block;
         margin: 0;
     }
@@ -567,7 +562,8 @@ em.lan-code {
         text-align: center;
     }
 
-    .l-p img.cover {
+    .l-p img {
+        max-width: 100%;
         margin: 0 auto 1em;
     }
 }
