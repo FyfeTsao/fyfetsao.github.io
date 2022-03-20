@@ -285,6 +285,18 @@ td {
     padding-right: 3em;
 }
 
+.l-p.illustration-l li {
+    border: .25em solid #333;
+    padding: 2.5em;
+    margin: 0 4em 4em 0;
+
+}
+
+.illustration-l li img {
+    padding-bottom: 2.5em;
+    border-bottom: .25em solid #333;
+}
+
 li .i {
     font-size: .9em;
     margin-bottom: 1.2em;
@@ -538,6 +550,12 @@ li .i p {
     .l img {
         display: block;
         margin: 0 auto .8em;
+    }
+
+
+    .l-p.illustration-l li {
+        margin: 0 0 4em 0;
+
     }
 
     /* style for: project gallery */
