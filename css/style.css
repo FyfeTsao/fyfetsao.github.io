@@ -286,7 +286,6 @@ td {
 }
 
 
-
 li .i {
     font-size: .9em;
     margin-bottom: 1.2em;
@@ -414,8 +413,7 @@ li .i p {
 }
 
 
-
-.illustration-l{
+.illustration-l {
     display: flex;
     display: -webkit-flex;
     flex-flow: row wrap;
@@ -514,9 +512,9 @@ li .i p {
         margin-right: -2.38%;
     }
 
-.illustration-l li img {
-    height: 20em;
-}
+    .illustration-l li img {
+        height: 20em;
+    }
 }
 
 
@@ -602,9 +600,9 @@ li .i p {
         margin: 0 auto 1em;
     }
 
-.illustration-l{
-    flex-flow: column wrap;
-}
+    .illustration-l {
+        flex-flow: column wrap;
+    }
 }
 
 .color-White {
