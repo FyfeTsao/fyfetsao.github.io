@@ -158,10 +158,6 @@ sup {
 }
 
 
-.portal {
-    padding: 2em 1.5em;
-}
-
 .portal h2 {
     font-size: 1.4em;
     letter-spacing: .2em;
@@ -659,18 +655,6 @@ li .i p {
 
 .bgcolor-Black {
     background: #000;
-}
-
-.bgcolor-Light-Turquoise {
-    background: #87d7cd;
-}
-
-.bgcolor-Light-Yellow {
-    background: #ffdc8c;
-}
-
-.bgcolor-Light-Purple {
-    background: #b48ccd;
 }
 
 /*svg icons*/
