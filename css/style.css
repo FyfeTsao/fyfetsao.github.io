@@ -419,7 +419,6 @@ li .i p {
     border: .25em solid #333;
     padding: 2.5em;
     margin: 0 4em 4em 0;
-
 }
 
 .illustration-l li .i {
@@ -509,10 +508,9 @@ li .i p {
     }
 
     .illustration-l li img {
-        height: 20em;
+        height: 16em;
     }
 }
-
 
 @media screen and (min-width: 960px) and (max-width: 1440px) {
 
@@ -597,7 +595,7 @@ li .i p {
     }
 
     .illustration-l {
-        flex-flow: column wrap;
+        flex-flow: column nowrap;
     }
 }
 
