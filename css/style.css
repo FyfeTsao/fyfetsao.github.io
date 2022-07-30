@@ -25,14 +25,8 @@ body {
     margin: 0 5%;
 }
 
-@font-face {
-    font-family: "myArimo";
-    src: url("../css/fonts/Arimo-Medium.ttf");
-}
-
-
 h1, h2, h3, h4, h5, h6 {
-    font-family: "myArimo", sans-serif;
+    font-family: "Arimo", sans-serif;
 }
 
 :lang(en), :lang(en-GB), :lang(en-US), :lang(en-IE), :lang(de), :lang(de-CH), :lang(de-AT), :lang(sv), :lang(da), :lang(is), :lang(fi), :lang(nb), :lang(fr), :lang(fr-BE), :lang(es), :lang(es-AR), :lang(pt), :lang(pt-BR), :lang(it), :lang(ro), :lang(pl), :lang(ru), :lang(ru-RU), :lang(mn-MN), :lang(el), :lang(tr), :lang(tl), :lang(kk), :lang(vi) {
@@ -338,7 +332,7 @@ li .i p {
 }
 
 .l .color-block {
-    font: 1.2em "myArimo", sans-serif;
+    font: 1.2em "Arimo", sans-serif;
     float: left;
     padding: 2em;
 }
@@ -381,8 +375,8 @@ li .i p {
 }
 
 .project-info h2 :lang(en) {
-    font-family: "myArimo", sans-serif;
-    text-transform: uppercase;
+    font-family: "Arimo", sans-serif;
+    text-transform: lowercase;
 }
 
 .project-info p {
@@ -402,9 +396,10 @@ li .i p {
     margin: 0 10em 5em 0;
 }
 
-.l-p .project-tit {
+.l-p h4.project-tit {
     font-size: 1.62em;
     line-height: 1;
+    letter-spacing: -.03em;
     text-transform: lowercase;
     padding: .3em 0;
 }
@@ -417,29 +412,6 @@ li .i p {
 .l-p img {
     display: block;
     margin-bottom: 1em;
-}
-
-.l-p2 {
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row wrap;
-}
-
-.l-p2 li {
-    margin: 0 1em 1em 0;
-    padding: 1em;
-}
-
-.l-p2 .project-tit {
-    font-size: 4em;
-    line-height: 1;
-    font-weight: normal;
-    text-transform: lowercase;
-    padding: 1em 0;
-}
-
-.l-p2 .project-tit a {
-    color: #000;
 }
 
 .illustration-l {
