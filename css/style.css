@@ -25,9 +25,14 @@ body {
     margin: 0 5%;
 }
 
+@font-face {
+    font-family: "myArimo";
+    src: url("../css/fonts/Arimo-Medium.ttf");
+}
+
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Arimo", sans-serif;
-    font-weight: bold;
+    font-family: "myArimo", sans-serif;
 }
 
 :lang(en), :lang(en-GB), :lang(en-US), :lang(en-IE), :lang(de), :lang(de-CH), :lang(de-AT), :lang(sv), :lang(da), :lang(is), :lang(fi), :lang(nb), :lang(fr), :lang(fr-BE), :lang(es), :lang(es-AR), :lang(pt), :lang(pt-BR), :lang(it), :lang(ro), :lang(pl), :lang(ru), :lang(ru-RU), :lang(mn-MN), :lang(el), :lang(tr), :lang(tl), :lang(kk), :lang(vi) {
@@ -109,7 +114,6 @@ footer {
 }
 
 .content {
-    padding: 4em 0;
     overflow-x: hidden;
 }
 
@@ -334,7 +338,7 @@ li .i p {
 }
 
 .l .color-block {
-    font: bold 1.2em "Arimo", sans-serif;
+    font: 1.2em "myArimo", sans-serif;
     float: left;
     padding: 2em;
 }
@@ -377,7 +381,7 @@ li .i p {
 }
 
 .project-info h2 :lang(en) {
-    font-family: "Arimo", sans-serif;
+    font-family: "myArimo", sans-serif;
     text-transform: uppercase;
 }
 
@@ -395,7 +399,14 @@ li .i p {
 }
 
 .l-p li {
-    margin: 0 8em 2em 0;
+    margin: 0 10em 5em 0;
+}
+
+.l-p .project-tit {
+    font-size: 1.62em;
+    line-height: 1;
+    text-transform: lowercase;
+    padding: .3em 0;
 }
 
 .l-p a {
@@ -408,6 +419,28 @@ li .i p {
     margin-bottom: 1em;
 }
 
+.l-p2 {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+}
+
+.l-p2 li {
+    margin: 0 1em 1em 0;
+    padding: 1em;
+}
+
+.l-p2 .project-tit {
+    font-size: 4em;
+    line-height: 1;
+    font-weight: normal;
+    text-transform: lowercase;
+    padding: 1em 0;
+}
+
+.l-p2 .project-tit a {
+    color: #000;
+}
 
 .illustration-l {
     display: flex;
@@ -478,18 +511,19 @@ li .i p {
 .header nav a {
     display: block;
     color: #000;
-    font: bold 1em/2em "Arimo", sans-serif;
-    letter-spacing: .5em;
 }
 
-.header nav a.logo {
+.header a.logo {
     margin: 4em 0;
+}
+
+.header a.logo:hover {
+    opacity: 0.5;
 }
 
 @media screen and (min-width: 960px) {
 
     .header {
-        padding: 4em 0 8em;
     }
 
     .l .series a {
@@ -526,7 +560,6 @@ li .i p {
 @media screen and (max-width: 959px) {
 
     .header {
-        padding: 2em 0 6em;
     }
 
     .header nav a img {
@@ -650,6 +683,87 @@ li .i p {
 
 .bgcolor-Black {
     background: #000;
+}
+
+
+.bgcolor-Red-R {
+    background: #E13241;
+}
+
+.bgcolor-Red-L {
+    background: #F0828C;
+}
+
+.bgcolor-Red-EL {
+    background: #FFD2D7;
+}
+
+.bgcolor-Red-A {
+    background: #FF4B7D;
+}
+
+.bgcolor-Orange-R {
+    background: #EB6937;
+}
+
+.bgcolor-Orange-L {
+    background: #FAAF82;
+}
+
+.bgcolor-Orange-EL {
+    background: #FFE6D2;
+}
+
+.bgcolor-Orange-A {
+    background: #FF912D;
+}
+
+.bgcolor-Yellow-R {
+    background: #FFC346;
+}
+
+.bgcolor-Yellow-L {
+    background: #FFDC8C;
+}
+
+.bgcolor-Yellow-EL {
+    background: #FFF0D2;
+}
+
+.bgcolor-Yellow-A {
+    background: #FFF000;
+}
+
+.bgcolor-Turquoise-R {
+    background: #3CBEB4;
+}
+
+.bgcolor-Turquoise-L {
+    background: #87D7CD;
+}
+
+.bgcolor-Turquoise-EL {
+    background: #CDF0E6;
+}
+
+.bgcolor-Turquoise-A {
+    background: #00DCD2;
+}
+
+.bgcolor-Purple-R {
+    background: #87289B;
+}
+
+.bgcolor-Purple-L {
+    background: #B48CCD;
+}
+
+.bgcolor-Purple-EL {
+    background: #D7D2F0;
+}
+
+.bgcolor-Purple-A {
+    background: #BE00DC;
 }
 
 /*svg icons*/
