@@ -156,16 +156,6 @@ sup {
 }
 
 
-.portal h2 {
-    font-size: 1.4em;
-    letter-spacing: .2em;
-    margin-bottom: .5em;
-}
-
-.portal a {
-    color: #000;
-}
-
 #page-nav {
     margin-top: 3.2em;
 }
@@ -284,7 +274,6 @@ li .i {
     font-size: .9em;
     margin-bottom: 1.2em;
     letter-spacing: .2em;
-    color: #4d4d4d;
 }
 
 em.lan-code {
@@ -385,6 +374,35 @@ li .i p {
 }
 
 /* l-p: list with picture as the main visual element, e.g. project list, xiaosheng list, illustration list */
+
+.project-list{
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+}
+
+.project-list li{
+    margin: 0 10em 5em 0;
+}
+
+.project-list a{
+    display: block;
+    color: #000;
+}
+
+.project-list h4{
+    font-size: 1.62em;
+    line-height: 1;
+    letter-spacing: -.03em;
+    text-transform: lowercase;
+    margin: 1em 0 .5em;
+}
+.project-list .infos{
+    letter-spacing: 0;
+}
+
+
+
 
 .l-p {
     display: flex;
@@ -690,6 +708,9 @@ li .i p {
     background: #FF912D;
 }
 
+.color-Orange-A {
+    color: #FF912D;
+}
 .bgcolor-Yellow-R {
     background: #FFC346;
 }
@@ -722,6 +743,9 @@ li .i p {
     background: #00DCD2;
 }
 
+.color-Turquoise-A {
+    color: #00DCD2;
+}
 .bgcolor-Purple-R {
     background: #87289B;
 }
@@ -738,6 +762,9 @@ li .i p {
     background: #BE00DC;
 }
 
+.color-Purple-A {
+    color: #BE00DC;
+}
 /*svg icons*/
 .si {
     width: 1em;
