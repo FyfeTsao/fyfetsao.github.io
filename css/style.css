@@ -108,22 +108,11 @@ footer {
 }
 
 .content {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
-.content h2 {
-    font-size: 2em;
-    margin: 0 0 1em;
-}
 
-.content h2.t {
-    margin: 4em 0;
-}
 
-.content h2.ti /*title-initial*/
-{
-    margin: 0 0 4em;
-}
 
 .content h3 {
     font-size: 1.5em;
@@ -276,9 +265,9 @@ li .i {
     letter-spacing: .2em;
 }
 
-em.lan-code {
-    font: normal small-caps bold .75em "Noto Sans Mono", monospace;
-    color: #ccc;
+.lan-code {
+    font: bold small-caps .75em "Noto Sans Mono", monospace;
+    color: #000;
 }
 
 li .i span {
@@ -356,21 +345,30 @@ li .i p {
     letter-spacing: -.05em;
 }
 
+
 .project-info {
-    padding: 4em 0;
     margin-bottom: 8em;
-    border-top: .25em solid #333;
+    padding-bottom: 2em;
     border-bottom: .25em solid #333;
 }
 
+
+.project-info h2{
+    font-size: 4.5em;
+    line-height: 1;
+    letter-spacing: -.03em;
+    margin-bottom: .5em;
+}
+
+.project-info .intro{
+}
 .project-info h2 :lang(en) {
     font-family: "Arimo", sans-serif;
     text-transform: lowercase;
 }
 
 .project-info p {
-    font-weight: bold;
-    margin-bottom: .5em;
+    margin-bottom: 1em;
 }
 
 /* l-p: list with picture as the main visual element, e.g. project list, xiaosheng list, illustration list */
@@ -379,6 +377,7 @@ li .i p {
     display: flex;
     display: -webkit-flex;
     flex-flow: row wrap;
+    margin-top: 10em;
 }
 
 .project-list li{
@@ -531,6 +530,20 @@ li .i p {
         margin-right: -2.38%;
     }
 
+    .project-info {
+        display: flex;
+        display: -webkit-flex;
+        flex-flow: row wrap;
+    }
+
+    .project-info h2{
+        width:50%;
+    }
+
+    .project-info .intro{
+        width: 50%;
+    }
+
 }
 
 @media screen and (min-width: 960px) and (max-width: 1440px) {
@@ -544,6 +557,12 @@ li .i p {
 
     .gallery {
         margin-right: -2.86%;
+    }
+
+
+    .project-info h2{
+        width:45%;
+        padding-right: 5%;
     }
 }
 
@@ -614,9 +633,30 @@ li .i p {
         margin: 0 auto 1em;
     }
 
+
+
+    /* 202207 list of projects */
+    .project-list {
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    .project-list li {
+        margin: 0 0 10em 0;
+        text-align: center;
+    }
+
+    .project-list img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
     .illustration-l {
         flex-flow: column nowrap;
     }
+
+
+
 }
 
 .color-White {
