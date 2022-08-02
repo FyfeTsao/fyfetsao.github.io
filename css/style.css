@@ -265,10 +265,6 @@ li .i {
     letter-spacing: .2em;
 }
 
-.lan-code {
-    font: bold small-caps .75em "Noto Sans Mono", monospace;
-    color: #000;
-}
 
 li .i span {
     margin-right: 1.5em;
@@ -362,7 +358,7 @@ li .i p {
 
 .project-info .intro{
 }
-.project-info h2 :lang(en) {
+.project-info h2 :lang(en),.project-info h3 :lang(en) {
     font-family: "Arimo", sans-serif;
     text-transform: lowercase;
 }
@@ -536,8 +532,10 @@ li .i p {
         flex-flow: row wrap;
     }
 
+
     .project-info h2{
-        width:50%;
+        width:45%;
+        padding-right: 5%;
     }
 
     .project-info .intro{
@@ -560,10 +558,6 @@ li .i p {
     }
 
 
-    .project-info h2{
-        width:45%;
-        padding-right: 5%;
-    }
 }
 
 @media screen and (max-width: 959px) {
@@ -751,6 +745,10 @@ li .i p {
 .color-Orange-A {
     color: #FF912D;
 }
+.color-Orange-ED{
+    color: #B93C05;
+}
+
 .bgcolor-Yellow-R {
     background: #FFC346;
 }
@@ -811,4 +809,13 @@ li .i p {
     height: 1em;
     display: inline-block;
     vertical-align: -.125em;
+}
+
+
+.lan-code {
+    font: bold small-caps .75em "Noto Sans Mono", monospace;
+    color: #000;
+}
+.project-info h2 .city-name{
+    text-transform: capitalize;
 }
