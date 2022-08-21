@@ -19,6 +19,14 @@ a {
     text-decoration: none;
 }
 
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #000;
+}
+
+a:hover {
+    color: #ccc;
+}
+
 body {
     color: #000;
     font-family: "Noto Sans", sans-serif;
@@ -27,10 +35,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Arimo", sans-serif;
-}
-
-:lang(en), :lang(en-GB), :lang(en-US), :lang(en-IE), :lang(de), :lang(de-CH), :lang(de-AT), :lang(sv), :lang(da), :lang(is), :lang(fi), :lang(nb), :lang(fr), :lang(fr-BE), :lang(es), :lang(es-AR), :lang(pt), :lang(pt-BR), :lang(it), :lang(ro), :lang(pl), :lang(ru), :lang(ru-RU), :lang(mn-MN), :lang(el), :lang(tr), :lang(tl), :lang(kk), :lang(vi) {
-    font-family: "Noto Sans", "Segoe UI", sans-serif;
 }
 
 :lang(zh), :lang(zh-TW), :lang(zh-HK) {
@@ -98,7 +102,7 @@ nav .page-number {
     margin: 0 2em 0 0;
 }
 
-footer {
+footer.footer {
     clear: both;
     padding: 8em 0;
     margin-top: 16em;
@@ -107,42 +111,45 @@ footer {
     text-align: right;
 }
 
+.sitemap {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    text-align: left;
+    letter-spacing: 0;
+    margin-bottom: 2em;
+}
+
+.sitemap div {
+    padding: 0 8em 0 0;
+    margin-bottom: 2em;
+}
+
 .content {
     overflow: hidden;
 }
 
 
-
-
-.content h3 {
+h1{
+    font-size: 4em;
+}
+h2{
+    font-size: 2em;
+}
+h3{
     font-size: 1.5em;
-    margin-bottom: .5em;
 }
-
-.content h3 span {
-    display: block;
-}
-
-.content h3 sub {
-    display: block;
-    font: .5em "Noto Sans Mono", monospace;
-    letter-spacing: 0;
-}
-
-
-sup {
-    display: block;
-    font-weight: normal;
-}
-
-.content h4 {
+h4{
     font-size: 1.2em;
-    margin-bottom: .3em;
 }
 
-.content ul {
-    margin-bottom: 4em;
+
+sub, sup {
+    display: block;
 }
+
+
+
 
 
 #page-nav {
@@ -168,9 +175,14 @@ table p {
     margin: 0;
 }
 
+
+.project-detail .article-gallery-img img {
+    max-width: 100%;
+    padding-bottom: 2em;
+}
+
 .text p {
     margin: 1em 0;
-    text-indent: 2em;
     line-height: 1.62;
 }
 
@@ -208,36 +220,39 @@ td {
     position: relative;
 }
 
-.gallery {
+.archive {
     display: flex;
     display: -webkit-flex;
     flex-flow: row wrap;
     overflow: hidden;
 }
 
-.gallery li a {
+.archive .post a {
     display: block;
 }
 
-.gallery li a h4 {
+.archive .post a h4 {
     color: #000;
     line-height: 1.2;
     margin-bottom: .4em;
 }
 
-.gallery li p {
+.archive .post p {
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
+
+
+
 /* 201708：uniformed style for list, using class ".l" */
 .l {
     font-size: .9em;
 }
 
-.l li {
+.l li, .l .post {
     padding-bottom: 4em;
     position: relative;
 }
@@ -259,18 +274,17 @@ td {
 }
 
 
-li .i {
-    font-size: .9em;
+.i {
+    font-size: .8em;
     margin-bottom: 1.2em;
-    letter-spacing: .2em;
+    letter-spacing: .08em;
 }
 
-
-li .i span {
-    margin-right: 1.5em;
+.i span {
+    margin-right: 1em;
 }
 
-li .i p {
+.i p {
     letter-spacing: 0;
     margin-top: 1em;
 }
@@ -292,17 +306,6 @@ li .i p {
 .l img {
     max-width: 100%;
     margin-bottom: .8em;
-}
-
-.l .tags {
-    margin-top: .8em;
-    font-size: .9em;
-    letter-spacing: .2em;
-    color: #4d4d4d;
-}
-
-.l .tags span {
-    margin-right: 1.5em;
 }
 
 .l .color-block {
@@ -348,18 +351,11 @@ li .i p {
     border-bottom: .25em solid #333;
 }
 
-
-.project-info h2{
+.project-info h2 {
     font-size: 4.5em;
     line-height: 1;
     letter-spacing: -.03em;
     margin-bottom: .5em;
-}
-
-.project-info .intro{
-}
-.project-info h2 :lang(en),.project-info h3 :lang(en) {
-    font-family: "Arimo", sans-serif;
     text-transform: lowercase;
 }
 
@@ -367,86 +363,29 @@ li .i p {
     margin-bottom: 1em;
 }
 
-/* l-p: list with picture as the main visual element, e.g. project list, xiaosheng list, illustration list */
-
-.project-list{
+.project-list {
     display: flex;
     display: -webkit-flex;
     flex-flow: row wrap;
     margin-top: 10em;
 }
 
-.project-list li{
+.project-list li {
     margin: 0 10em 5em 0;
 }
 
-.project-list a{
-    display: block;
-    color: #000;
-}
-
-.project-list h4{
+.project-list h4 {
     font-size: 1.62em;
     line-height: 1;
     letter-spacing: -.03em;
     text-transform: lowercase;
     margin: 1em 0 .5em;
 }
-.project-list .infos{
+
+.project-list .infos {
     letter-spacing: 0;
 }
 
-
-
-
-.l-p {
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row wrap;
-}
-
-.l-p li {
-    margin: 0 10em 5em 0;
-}
-
-.l-p h4.project-tit {
-    font-size: 1.62em;
-    line-height: 1;
-    letter-spacing: -.03em;
-    text-transform: lowercase;
-    padding: .3em 0;
-}
-
-.l-p a {
-    display: block;
-    color: #4d4d4d;
-}
-
-.l-p img {
-    display: block;
-    margin-bottom: 1em;
-}
-
-.illustration-l {
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row wrap;
-}
-
-.illustration-l li {
-    border: .25em solid #333;
-    padding: 2.5em;
-    margin: 0 4em 4em 0;
-}
-
-.illustration-l li .i {
-    letter-spacing: 0;
-}
-
-.illustration-l li img {
-    padding-bottom: 2.5em;
-    border-bottom: .25em solid #333;
-}
 
 .stats {
     clear: both;
@@ -464,25 +403,6 @@ li .i p {
     font-size: 2em;
 }
 
-
-/*essay list*/
-.archives article {
-    padding: .5em 0;
-}
-
-.archive-article-date {
-    font-size: .8em;
-}
-
-.archive-article-header h1 {
-    font-size: 1em;
-    font-weight: bold;
-    line-height: 1.5;
-}
-
-.archive-bg .archives article a {
-    color: #fff;
-}
 
 .header nav {
     display: flex;
@@ -515,14 +435,13 @@ li .i p {
         white-space: nowrap;
     }
 
-    /* style for: project gallery */
     /* 7 items; content:space=5:1 */
-    .gallery li {
+    .archive .post {
         width: 11.9%;
         margin-right: 2.38%;
     }
 
-    .gallery {
+    .archive {
         margin-right: -2.38%;
     }
 
@@ -532,28 +451,41 @@ li .i p {
         flex-flow: row wrap;
     }
 
-
-    .project-info h2{
-        width:45%;
-        padding-right: 5%;
+    .project-info h2 {
+        width: 45.4%;
+        padding-right: 4.6%;
     }
 
-    .project-info .intro{
+    .project-info .intro {
         width: 50%;
     }
 
+    .project-detail {
+        display: flex;
+        display: -webkit-flex;
+        flex-flow: row wrap;
+    }
+
+    .project-detail .article-gallery,.project-detail .article-entry {
+        width: 30%;
+        padding-right: 3%;
+    }
+
+    .project-detail .article-footer {
+        width: 34%;
+
+    }
 }
 
 @media screen and (min-width: 960px) and (max-width: 1440px) {
 
-    /* style for: project gallery */
     /* 5 items; content:space=6:1 */
-    .gallery li {
+    .archive .post {
         width: 17.14%;
         margin-right: 2.86%;
     }
 
-    .gallery {
+    .archive {
         margin-right: -2.86%;
     }
 
@@ -570,7 +502,7 @@ li .i p {
         max-width: 100%;
     }
 
-    footer {
+    footer.footer {
         text-align: center;
     }
 
@@ -585,7 +517,7 @@ li .i p {
         letter-spacing: 0;
     }
 
-    li .i span {
+    .i span {
         display: block;
         margin: 0;
     }
@@ -596,38 +528,15 @@ li .i p {
     }
 
 
-    .l-p.illustration-l li {
-        margin: 0 0 4em 0;
-    }
-
-
-    /* style for: project gallery */
     /* 3 items; content:space=7:1 */
-    .gallery li {
+    .archive .post {
         width: 29.16%;
         margin-right: 4.17%;
     }
 
-    .gallery {
+    .archive {
         margin-right: -4.17%;
     }
-
-    .l-p {
-        flex-flow: column nowrap;
-        align-items: center;
-    }
-
-    .l-p li {
-        margin: 4em 0 4em 0;
-        text-align: center;
-    }
-
-    .l-p img {
-        max-width: 100%;
-        margin: 0 auto 1em;
-    }
-
-
 
     /* 202207 list of projects */
     .project-list {
@@ -644,11 +553,6 @@ li .i p {
         max-width: 100%;
         margin: 0 auto;
     }
-
-    .illustration-l {
-        flex-flow: column nowrap;
-    }
-
 
 
 }
@@ -745,7 +649,8 @@ li .i p {
 .color-Orange-A {
     color: #FF912D;
 }
-.color-Orange-ED{
+
+.color-Orange-ED {
     color: #B93C05;
 }
 
@@ -784,6 +689,7 @@ li .i p {
 .color-Turquoise-A {
     color: #00DCD2;
 }
+
 .bgcolor-Purple-R {
     background: #87289B;
 }
@@ -803,6 +709,7 @@ li .i p {
 .color-Purple-A {
     color: #BE00DC;
 }
+
 /*svg icons*/
 .si {
     width: 1em;
@@ -816,6 +723,7 @@ li .i p {
     font: bold small-caps .75em "Noto Sans Mono", monospace;
     color: #000;
 }
-.project-info h2 .city-name{
+
+.project-info h2 .city-name {
     text-transform: capitalize;
 }
