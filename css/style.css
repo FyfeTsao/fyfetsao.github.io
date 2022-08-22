@@ -24,7 +24,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 a:hover {
-    color: #ccc;
+    opacity: .5;
 }
 
 body {
@@ -420,10 +420,6 @@ td {
 
 .header a.logo {
     margin: 4em 0;
-}
-
-.header a.logo:hover {
-    opacity: 0.5;
 }
 
 @media screen and (min-width: 960px) {
