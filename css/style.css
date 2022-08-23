@@ -112,16 +112,12 @@ footer.footer {
 }
 
 .sitemap {
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row wrap;
     text-align: left;
     letter-spacing: 0;
     margin-bottom: 2em;
 }
 
 .sitemap div {
-    padding: 0 8em 0 0;
     margin-bottom: 2em;
 }
 
@@ -244,9 +240,6 @@ td {
     text-overflow: ellipsis;
 }
 
-
-
-
 /* 201708：uniformed style for list, using class ".l" */
 .l {
     font-size: .9em;
@@ -309,17 +302,15 @@ td {
 }
 
 .l .color-block {
-    font: 1.2em "Arimo", sans-serif;
     float: left;
-    padding: 2em;
+    padding: 1em 2em;
 }
 
 .l .color-block .color-code {
-    font: normal .75em "Noto Sans Mono", monospace;
+    font: .75em "Noto Sans Mono", monospace;
     text-transform: uppercase;
     display: block;
 }
-
 
 .chk.il li {
     float: left;
@@ -348,8 +339,12 @@ td {
 .project-info {
     margin-bottom: 8em;
     padding-bottom: 2em;
-    border-bottom: .25em solid #333;
 }
+
+.project-info-lite .intro{
+    display: none;
+}
+
 
 .project-info h2 {
     font-size: 4.5em;
@@ -451,9 +446,16 @@ td {
         width: 45.4%;
         padding-right: 4.6%;
     }
+    .project-info-lite h2{
+        width: 100%;
+        padding-right: 0;
+    }
 
     .project-info .intro {
-        width: 50%;
+        width: 45.4%;
+        padding-left: 4.6%;
+        border-left: .25em solid #333;
+        margin: 0 -.25em 0 0;
     }
 
     .project-detail {
@@ -470,6 +472,17 @@ td {
     .project-detail .article-footer {
         width: 34%;
 
+    }
+
+
+    .sitemap {
+        display: flex;
+        display: -webkit-flex;
+        flex-flow: row wrap;
+    }
+
+    .sitemap div {
+        padding: 0 8em 0 0;
     }
 }
 
@@ -718,8 +731,5 @@ td {
 .lan-code {
     font: bold small-caps .75em "Noto Sans Mono", monospace;
     color: #000;
-}
-
-.project-info h2 .city-name {
-    text-transform: capitalize;
+    padding-right: .75em;
 }
