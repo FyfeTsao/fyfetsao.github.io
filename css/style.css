@@ -19,7 +19,7 @@ a {
     text-decoration: none;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .tit a {
     color: #000;
 }
 
@@ -126,16 +126,19 @@ footer.footer {
 }
 
 
-h1{
+h1 {
     font-size: 4em;
 }
-h2{
+
+h2 {
     font-size: 2em;
 }
-h3{
+
+h3 {
     font-size: 1.5em;
 }
-h4{
+
+h4 {
     font-size: 1.2em;
 }
 
@@ -143,9 +146,6 @@ h4{
 sub, sup {
     display: block;
 }
-
-
-
 
 
 #page-nav {
@@ -336,26 +336,36 @@ td {
 }
 
 
+/* style for project-info */
 .project-info {
-    margin-bottom: 8em;
-    padding-bottom: 2em;
 }
 
-.project-info-lite .intro{
+.project-info-lite .intro {
     display: none;
 }
 
-
-.project-info h2 {
-    font-size: 4.5em;
-    line-height: 1;
+.project-info .tit {
+    font: bold 4.8em/1 "Arimo", sans-serif;
     letter-spacing: -.03em;
-    margin-bottom: .5em;
     text-transform: lowercase;
+}
+
+.project-info .intro .subtit {
+    font-weight: bold;
+    padding-right: 1em;
+    color: #000;
 }
 
 .project-info p {
     margin-bottom: 1em;
+}
+
+.project-info .navi {
+    margin-top: 4em;
+}
+
+.project-info .dash {
+    display: none;
 }
 
 .project-list {
@@ -440,13 +450,15 @@ td {
         display: flex;
         display: -webkit-flex;
         flex-flow: row wrap;
+        margin-bottom: 8em;
     }
 
-    .project-info h2 {
+    .project-info .tit {
         width: 45.4%;
         padding-right: 4.6%;
     }
-    .project-info-lite h2{
+
+    .project-info-lite .tit {
         width: 100%;
         padding-right: 0;
     }
@@ -464,14 +476,13 @@ td {
         flex-flow: row wrap;
     }
 
-    .project-detail .article-gallery,.project-detail .article-entry {
+    .project-detail .article-gallery, .project-detail .article-body {
         width: 30%;
         padding-right: 3%;
     }
 
     .project-detail .article-footer {
         width: 34%;
-
     }
 
 
@@ -513,10 +524,6 @@ td {
 
     footer.footer {
         text-align: center;
-    }
-
-    .portal nav a {
-        display: block;
     }
 
     .chk.il li {
@@ -563,7 +570,13 @@ td {
         margin: 0 auto;
     }
 
+    .project-info-lite .dash, .project-info-full .dash {
+        display: block;
+    }
 
+    .dash {
+        font-size: 5em;
+    }
 }
 
 .color-White {
@@ -728,8 +741,6 @@ td {
 }
 
 
-.lan-code {
+.monospaced {
     font: bold small-caps .75em "Noto Sans Mono", monospace;
-    color: #000;
-    padding-right: .75em;
 }
