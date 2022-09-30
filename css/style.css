@@ -31,7 +31,7 @@ body {
     font-family: "Noto Sans", sans-serif;
 }
 
-.cont{
+.cont {
     padding: 0 3.125% 8em;
     overflow: hidden;
 }
@@ -105,18 +105,38 @@ nav .page-number {
     margin: 0 2em 0 0;
 }
 
-header .logo{
-    font: bold 1.6em/3 "Open Sans Extrabold", sans-serif;
-    color: #000;
-    letter-spacing: .1em;
+.header {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2em 3.125%;
+    border-bottom: 1px solid #ccc;
 }
 
+.header .logo {
+    font: bold 1.6em/1 "Open Sans Extrabold", sans-serif;
+    color: #000;
+    letter-spacing: .1em;
+    margin-right: 3.2em;
+}
+
+.header .tag-list {
+    font: bold 1em/1 "Open Sans", sans-serif;
+    text-transform: lowercase;
+}
+
+.header .tag-list-item a{
+    color: #000;
+}
 footer.footer {
     padding-bottom: 2em;
     clear: both;
     font-size: .75em;
     letter-spacing: .5em;
     text-align: center;
+    border-top:1px solid #ccc;
 }
 
 .sitemap {
@@ -131,7 +151,8 @@ footer.footer {
     display: -webkit-flex;
     flex-flow: row wrap;
 }
-.sitemap .archive-list-item{
+
+.sitemap .archive-list-item {
     margin-right: 2em;
 }
 
@@ -352,6 +373,7 @@ td {
 
 /* style for project-info */
 .project-info {
+    padding-top: 4em;
 }
 
 .project-info-lite .intro {
@@ -359,8 +381,7 @@ td {
 }
 
 .project-info .tit {
-    font: bold 4.8em/1 "Open Sans", sans-serif;
-    letter-spacing: -.048em;
+    font: 4.8em/1 "Open Sans", sans-serif;
     text-transform: lowercase;
 }
 
@@ -423,17 +444,17 @@ td {
 }
 
 
-.header {
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row nowrap;
-    padding-top: 3.2em;
-}
 
 
 @media screen and (min-width: 960px) {
 
-    .header {
+    .header .tag-list {
+        display: flex;
+        display: -webkit-flex;
+        flex-flow: row nowrap;
+    }
+    .header .tag-list-item{
+        padding-left: 1em;
     }
 
     .l .series a {
@@ -552,7 +573,7 @@ td {
         margin-right: -3.7%;
     }
 
-    .project-info .tit{
+    .project-info .tit {
         margin-bottom: .5em;
     }
 
@@ -747,7 +768,7 @@ td {
     font: bold small-caps .75em "Noto Sans Mono", monospace;
 }
 
-.tag-list-count,.category-list-count,.archive-list-count{
-    padding-left: .5em;
+.tag-list-count, .category-list-count, .archive-list-count {
     font-family: "Noto Sans Mono", monospace;
+    letter-spacing: -.05em;
 }
