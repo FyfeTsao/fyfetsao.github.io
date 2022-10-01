@@ -105,31 +105,6 @@ nav .page-number {
     margin: 0 2em 0 0;
 }
 
-.header {
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 2em 3.125%;
-    border-bottom: 1px solid #ccc;
-}
-
-.header .logo {
-    font: bold 1.6em/1 "Open Sans Extrabold", sans-serif;
-    color: #000;
-    letter-spacing: .1em;
-    margin-right: 3.2em;
-}
-
-.header .tag-list {
-    font: bold 1em/1 "Open Sans", sans-serif;
-    text-transform: lowercase;
-}
-
-.header .tag-list-item a{
-    color: #000;
-}
 footer.footer {
     padding-bottom: 2em;
     clear: both;
@@ -448,15 +423,6 @@ td {
 
 @media screen and (min-width: 960px) {
 
-    .header .tag-list {
-        display: flex;
-        display: -webkit-flex;
-        flex-flow: row nowrap;
-    }
-    .header .tag-list-item{
-        padding-left: 1em;
-    }
-
     .l .series a {
         white-space: nowrap;
     }
@@ -535,15 +501,6 @@ td {
 }
 
 @media screen and (max-width: 959px) {
-
-    .header {
-    }
-
-    .header nav a img {
-        display: block;
-        max-width: 100%;
-    }
-
 
     .chk.il li {
         float: none;
@@ -769,6 +726,5 @@ td {
 }
 
 .tag-list-count, .category-list-count, .archive-list-count {
-    font-family: "Noto Sans Mono", monospace;
-    letter-spacing: -.05em;
+    letter-spacing: 0;
 }
