@@ -9,17 +9,20 @@
 
 .header .logo {
     font: bold 1.6em/1 "Open Sans Extrabold", sans-serif;
-    text-transform: uppercase;
     letter-spacing: .1em;
+    text-transform: uppercase;
 }
 
 .header .navi {
     font: bold 1em "Open Sans", sans-serif;
+    letter-spacing: .06em;
     text-transform: lowercase;
-    letter-spacing: .05em;
+    color: #1f1f1f;
 }
-
-
+.header .navi:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
 @media screen and (min-width: 960px) {
     .header {
         display: flex;
@@ -30,5 +33,8 @@
 }
 
 @media screen and (max-width: 959px) {
-
+    .header .logo {
+        display: block;
+        margin-bottom: 1em;
+    }
 }
