@@ -13,50 +13,22 @@
     letter-spacing: .1em;
 }
 
-.header .tag-list {
+.header .navi {
     font: bold 1em "Open Sans", sans-serif;
     text-transform: lowercase;
     letter-spacing: .05em;
 }
 
 
-.header {
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.header .tag-list {
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: row;
-}
-
-.header .tag-list-item {
-    padding-right: .6em;
-    border-left: .5em solid #000;
-    padding-left: .6em;
-}
-
-
 @media screen and (min-width: 960px) {
     .header {
-        flex-wrap: nowrap;
-    }
-
-    .header .tag-list {
-        flex-wrap: nowrap;
+        display: flex;
+        display: -webkit-flex;
+        justify-content: space-between;
+        align-items: flex-end;
     }
 }
 
 @media screen and (max-width: 959px) {
-    .header {
-        flex-wrap: wrap;
-    }
 
-    .header .tag-list {
-        flex-wrap: wrap;
-    }
 }
