@@ -105,31 +105,6 @@ nav .page-number {
     margin: 0 2em 0 0;
 }
 
-footer.footer {
-    padding-bottom: 2em;
-    clear: both;
-    font-size: .75em;
-    letter-spacing: .5em;
-    text-align: center;
-    border-top:1px solid #ccc;
-}
-
-.sitemap {
-    padding: 4em 3.125%;
-    margin-bottom: 4em;
-    text-align: left;
-    letter-spacing: 0;
-}
-
-.sitemap .archive-list {
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row wrap;
-}
-
-.sitemap .archive-list-item {
-    margin-right: 2em;
-}
 
 .content {
     overflow: hidden;
@@ -477,11 +452,6 @@ td {
     }
 
 
-    .sitemap {
-        display: flex;
-        display: -webkit-flex;
-        flex-flow: row wrap;
-    }
 
 }
 

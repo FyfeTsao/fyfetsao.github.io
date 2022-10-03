@@ -1,9 +1,10 @@
 .header {
-    padding: 2em 3.125%;
+    font-size: 1.1em;
+    padding: 2.4em 3.125% 1.2em;
     border-bottom: 1px solid #ccc;
 }
 
-.header a {
+.header a, .footer a {
     color: #000;
 }
 
@@ -11,6 +12,7 @@
     font: bold 1.6em/1 "Open Sans Extrabold", sans-serif;
     letter-spacing: .1em;
     text-transform: uppercase;
+    margin-right: 1em;
 }
 
 .header .navi {
@@ -19,10 +21,45 @@
     text-transform: lowercase;
     color: #1f1f1f;
 }
-.header .navi:hover{
+
+.header .navi:hover {
     text-decoration: underline;
     opacity: 1;
 }
+
+
+footer.footer {
+    font-size: .8em;
+    clear: both;
+    border-top: 1px solid #ccc;
+    background: #1f1f1f;
+    color: #fff;
+}
+
+.footer .archives {
+    padding: 4em 3.125% 3em;
+    font: bold 1em "Open Sans", sans-serif;
+    background: #fff;
+    color: #1f1f1f;
+}
+.footer .archive-tit{
+    font-size: 1.25em;
+    text-transform: uppercase;
+    margin-right: 1em;
+}
+.footer .archives .archive-link {
+    letter-spacing: .1em;
+    color: #1f1f1f;
+}
+
+.footer .copyright {
+    font: bold 1em "Open Sans Extrabold", sans-serif;
+    letter-spacing: .2em;
+    text-align: center;
+    padding: 3em 3.125% 2em;
+}
+
+
 @media screen and (min-width: 960px) {
     .header {
         display: flex;
@@ -35,6 +72,6 @@
 @media screen and (max-width: 959px) {
     .header .logo {
         display: block;
-        margin-bottom: 1em;
+        margin-bottom: .5em;
     }
 }
