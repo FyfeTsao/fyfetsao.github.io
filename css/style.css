@@ -321,38 +321,6 @@ td {
 }
 
 
-/* style for project-info */
-.project-info {
-    padding-top: 4em;
-}
-
-.project-info-lite .intro {
-    display: none;
-}
-
-.project-info .tit {
-    font: 4.8em/1 "Open Sans", sans-serif;
-    text-transform: lowercase;
-}
-
-.project-info .intro .subtit {
-    font-weight: bold;
-    padding-right: 1em;
-    color: #000;
-}
-
-.project-info p {
-    margin-bottom: 1em;
-}
-
-.project-info .navi {
-    margin-top: 4em;
-}
-
-.project-info .dash {
-    display: none;
-}
-
 .project-list {
     display: flex;
     display: -webkit-flex;
@@ -394,46 +362,10 @@ td {
 }
 
 
-
-
 @media screen and (min-width: 960px) {
 
     .l .series a {
         white-space: nowrap;
-    }
-
-    /* 7 items; content:space=8:1 */
-    .archive .post {
-        width: 12.7%;
-        margin-right: 1.58%;
-    }
-
-    .archive {
-        margin-right: -1.58%;
-    }
-
-    .project-info {
-        display: flex;
-        display: -webkit-flex;
-        flex-flow: row wrap;
-        margin-bottom: 8em;
-    }
-
-    .project-info .tit {
-        width: 45.4%;
-        padding-right: 4.6%;
-    }
-
-    .project-info-lite .tit {
-        width: 100%;
-        padding-right: 0;
-    }
-
-    .project-info .intro {
-        width: 45.4%;
-        padding-left: 4.6%;
-        border-left: .25em solid #333;
-        margin: 0 -.25em 0 0;
     }
 
     .project-detail {
@@ -451,23 +383,9 @@ td {
         width: 34%;
     }
 
-
-
 }
 
 @media screen and (min-width: 960px) and (max-width: 1440px) {
-
-    /* 5 items; content:space=8:1 */
-    .archive .post {
-        width: 17.78%;
-        margin-right: 2.22%;
-    }
-
-    .archive {
-        margin-right: -2.22%;
-    }
-
-
 }
 
 @media screen and (max-width: 959px) {
@@ -490,20 +408,6 @@ td {
     }
 
 
-    /* 3 items; content:space=8:1 */
-    .archive .post {
-        width: 29.63%;
-        margin-right: 3.7%;
-    }
-
-    .archive {
-        margin-right: -3.7%;
-    }
-
-    .project-info .tit {
-        margin-bottom: .5em;
-    }
-
     /* 202207 list of projects */
     .project-list {
         flex-flow: column nowrap;
@@ -520,13 +424,6 @@ td {
         margin: 0 auto;
     }
 
-    .project-info-lite .dash, .project-info-full .dash {
-        display: block;
-    }
-
-    .dash {
-        font-size: 5em;
-    }
 }
 
 .color-White {

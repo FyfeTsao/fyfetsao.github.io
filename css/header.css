@@ -3,13 +3,15 @@
     padding: 2.4em 3.125% 1.2em;
     border-bottom: 1px solid #ccc;
 }
-
+.header,.footer .archives{
+    color: #ccc;
+}
 .header a, .footer a {
     color: #000;
 }
 
 .header .logo {
-    font: bold 1.6em/1 "Open Sans Extrabold", sans-serif;
+    font: bold 1.62em/1 "Open Sans Extrabold", sans-serif;
     letter-spacing: .1em;
     text-transform: uppercase;
     margin-right: 1em;
@@ -27,7 +29,6 @@
     opacity: 1;
 }
 
-
 footer.footer {
     font-size: .8em;
     clear: both;
@@ -40,16 +41,16 @@ footer.footer {
     padding: 4em 3.125% 3em;
     font: bold 1em "Open Sans", sans-serif;
     background: #fff;
-    color: #1f1f1f;
 }
 .footer .archive-tit{
-    font-size: 1.25em;
+    font-size: 1.41em;
     text-transform: uppercase;
     margin-right: 1em;
 }
 .footer .archives .archive-link {
-    letter-spacing: .1em;
+    letter-spacing: .2em;
     color: #1f1f1f;
+
 }
 
 .footer .copyright {
