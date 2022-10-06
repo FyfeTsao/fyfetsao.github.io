@@ -257,7 +257,9 @@ td {
     margin-bottom: 1.2em;
     letter-spacing: .08em;
 }
-
+.i strong{
+    letter-spacing: 0;
+}
 .i span {
     margin-right: 1em;
 }
@@ -592,5 +594,6 @@ td {
     font: bold small-caps .75em "Noto Sans Mono", monospace;
 }
 
-.tag-list-count, .category-list-count, .archive-list-count {
+.tag-count, .category-count, .archive-count {
+    font: bold small-caps .75em "Noto Sans Mono", monospace;
 }
