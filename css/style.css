@@ -225,7 +225,7 @@ td {
     text-overflow: ellipsis;
 }
 
-/* 201708：uniformed style for list, using class ".l" */
+/* uniformed style for list, using class ".l" */
 .l {
     font-size: .9em;
 }
@@ -363,6 +363,12 @@ td {
     font-size: 2em;
 }
 
+.article-body h1{
+    font-size: 3em;
+    letter-spacing: -.03em;
+    line-height: 1.2;
+    margin-bottom: 1em;
+}
 
 @media screen and (min-width: 960px) {
 
