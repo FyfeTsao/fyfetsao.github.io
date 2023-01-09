@@ -105,11 +105,9 @@ nav .page-number {
     margin: 0 2em 0 0;
 }
 
-
 .content {
     overflow: hidden;
 }
-
 
 h1 {
     font-size: 4em;
@@ -127,11 +125,9 @@ h4 {
     font-size: 1.2em;
 }
 
-
 sub, sup {
     display: block;
 }
-
 
 #page-nav {
     margin-top: 3.2em;
@@ -155,7 +151,6 @@ table p {
     line-height: 1;
     margin: 0;
 }
-
 
 .project-detail .article-gallery-img img {
     max-width: 100%;
@@ -251,15 +246,16 @@ td {
     padding-right: 3em;
 }
 
-
 .i {
     font-size: .8em;
     margin-bottom: 1.2em;
     letter-spacing: .08em;
 }
-.i strong{
+
+.i strong {
     letter-spacing: 0;
 }
+
 .i span {
     margin-right: 1em;
 }
@@ -363,12 +359,7 @@ td {
     font-size: 2em;
 }
 
-.article-body h1{
-    font-size: 3em;
-    letter-spacing: -.03em;
-    line-height: 1.2;
-    margin-bottom: 1em;
-}
+
 
 @media screen and (min-width: 960px) {
 
@@ -414,7 +405,6 @@ td {
         display: block;
         margin: 0 auto .8em;
     }
-
 
     /* 202207 list of projects */
     .project-list {
