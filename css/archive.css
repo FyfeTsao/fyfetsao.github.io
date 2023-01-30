@@ -15,12 +15,16 @@
     color: #000;
 }
 
+.archive-intro{
+    font-size: .9em;
+}
+
 .archive-intro p {
-    margin-bottom: 1em;
+    margin-bottom: .6em;
 }
 
 .archive-intro .subtitle {
-    font-weight: bold;
+    font: bold small-caps .9em "Noto Sans Mono", monospace;
     padding-right: 1em;
     color: #333;
 }
@@ -60,8 +64,8 @@
     .archive-intro {
         width: 45.4%;
         padding-left: 4.6%;
-        border-left: .25em solid #333;
-        margin: 0 -.25em 0 0;
+        border-left: .5em solid #333;
+        margin: 0 -.5em 0 0;
     }
 
     .archive-info .dash{

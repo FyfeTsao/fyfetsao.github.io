@@ -9,6 +9,9 @@
 .header a, .footer a {
     color: #000;
 }
+.header a.navi:hover, .footer a:hover {
+    text-decoration: underline;
+}
 
 .header .logo {
     font: bold 1.62em/1 "Open Sans Extrabold", sans-serif;
@@ -22,11 +25,6 @@
     letter-spacing: .06em;
     text-transform: lowercase;
     color: #1f1f1f;
-}
-
-.header .navi:hover {
-    text-decoration: underline;
-    opacity: 1;
 }
 
 footer.footer {
@@ -43,14 +41,12 @@ footer.footer {
     background: #fff;
 }
 .footer .archive-tit{
-    font-size: 1.41em;
-    text-transform: uppercase;
+    font-size: 1.62em;
     margin-right: 1em;
 }
 .footer .archives .archive-link {
     letter-spacing: .2em;
     color: #1f1f1f;
-
 }
 
 .footer .copyright {
