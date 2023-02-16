@@ -1,7 +1,6 @@
 .header {
     font-size: 1.1em;
     padding: 2.4em 3.125% 1.2em;
-    border-bottom: 1px solid #ccc;
 }
 .header,.footer .archives{
     color: #ccc;
@@ -30,15 +29,12 @@
 footer.footer {
     font-size: .8em;
     clear: both;
-    border-top: 1px solid #ccc;
-    background: #1f1f1f;
-    color: #fff;
+    background: #eaecef;
 }
 
 .footer .archives {
     padding: 4em 3.125% 3em;
     font: bold 1em "Open Sans", sans-serif;
-    background: #fff;
 }
 .footer .archive-tit{
     font-size: 1.62em;
@@ -50,10 +46,9 @@ footer.footer {
 }
 
 .footer .copyright {
-    font: bold 1em "Open Sans Extrabold", sans-serif;
+    font: 1em "Open Sans Extrabold", sans-serif;
     letter-spacing: .2em;
-    text-align: center;
-    padding: 3em 3.125% 2em;
+    padding: 3em 3.125% 12em;
 }
 
 
