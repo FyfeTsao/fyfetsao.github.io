@@ -369,18 +369,18 @@ td {
     }
 
     .project-detail {
+    }
+
+    .project-detail .article-gallery {
+        margin-right: 4em;
+    }
+    .project-detail .article-body {
         display: flex;
         display: -webkit-flex;
         flex-flow: row wrap;
     }
 
-    .project-detail .article-gallery, .project-detail .article-body {
-        width: 30%;
-        padding-right: 3%;
-    }
-
     .project-detail .article-footer {
-        width: 34%;
     }
 
 }
