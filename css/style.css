@@ -368,19 +368,18 @@ td {
         white-space: nowrap;
     }
 
-    .project-detail {
-    }
 
-    .project-detail .article-gallery {
-        margin-right: 4em;
-    }
     .project-detail .article-body {
         display: flex;
         display: -webkit-flex;
         flex-flow: row wrap;
     }
 
-    .project-detail .article-footer {
+    .project-detail .article-gallery {
+        margin-right: 4em;
+    }
+    .project-detail .article-cont{
+        width: 33%;
     }
 
 }
