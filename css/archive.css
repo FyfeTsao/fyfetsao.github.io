@@ -1,6 +1,9 @@
 .archive-info {
     margin: 6em 0 9em;
 }
+.project-detail .archive-info{
+    margin-bottom: 1em;
+}
 
 .archive-info-lite .archive-intro {
     display: none;
@@ -49,10 +52,6 @@
         display: flex;
         display: -webkit-flex;
         flex-flow: row wrap;
-    }
-
-    .project-detail .archive-info{
-        margin-bottom: .9em;
     }
 
     .project-archive-title {
