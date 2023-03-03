@@ -1,5 +1,5 @@
 .project-detail h1{
-    font-size: 6.4em;
+    font-size: 4.8em;
     letter-spacing: -.08em;
     line-height: 1;
     margin-bottom: 2em;
@@ -26,7 +26,8 @@
 
 
 @media screen and (max-width: 959px) {
-    .article-footer{
-        padding-top: 8em;
+    .project-detail h1{
+        font-size: 2.4em;
+        margin-top: .6em;
     }
 }

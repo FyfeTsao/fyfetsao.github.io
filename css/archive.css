@@ -1,5 +1,5 @@
 .archive-info {
-    padding-top: 6em;
+    margin: 6em 0 9em;
 }
 
 .archive-info-lite .archive-intro {
@@ -10,7 +10,6 @@
     font: 4.8em/1 "Open Sans", sans-serif;
     text-transform: lowercase;
 }
-
 
 .archive-title a {
     color: #000;
@@ -28,10 +27,6 @@
     font: bold small-caps .9em "Noto Sans Mono", monospace;
     padding-right: 1em;
     color: #333;
-}
-
-.archive-info .dash {
-    font-size: 5em;
 }
 
 .archive-note{
@@ -54,7 +49,6 @@
         display: flex;
         display: -webkit-flex;
         flex-flow: row wrap;
-        margin-bottom: 9em;
     }
 
     .project-detail .archive-info{
@@ -71,10 +65,6 @@
         padding-left: 4.6%;
         border-left: .5em solid #333;
         margin: 0 -.5em 0 0;
-    }
-
-    .archive-info .dash{
-        display: none;
     }
 
 }
