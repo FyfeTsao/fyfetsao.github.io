@@ -1,6 +1,6 @@
 .header {
     font-size: 1.1em;
-    padding: 2.4em 3.125% 1.2em;
+    padding: 2.4em 2% 1.2em;
 }
 .header,.footer .archives{
     color: #ccc;
@@ -13,15 +13,15 @@
 }
 
 .header .logo {
-    font: bold 1.62em/1 "Open Sans Extrabold", sans-serif;
+    font: 1.62em/1 "Arimo", sans-serif;
+    font-weight: 700;
     letter-spacing: .1em;
     text-transform: uppercase;
     margin-right: 1em;
 }
 
 .header .navi {
-    font: bold 1em "Open Sans", sans-serif;
-    letter-spacing: .06em;
+    font: bold 1em "Arimo", sans-serif;
     text-transform: lowercase;
     color: #1f1f1f;
 }
@@ -33,11 +33,12 @@ footer.footer {
 }
 
 .footer .archives {
-    padding: 4em 3.125% 3em;
-    font: bold 1em "Open Sans", sans-serif;
+    padding: 4em 2% 3em;
+    font-weight: bold;
 }
 .footer .archive-tit{
     font-size: 1.62em;
+    font-family: "Arimo", sans-serif;
     margin-right: 1em;
 }
 .footer .archives .archive-link {
@@ -46,9 +47,9 @@ footer.footer {
 }
 
 .footer .copyright {
-    font: 1em "Open Sans Extrabold", sans-serif;
+    font: 1em "Arimo", sans-serif;
     letter-spacing: .2em;
-    padding: 3em 3.125% 12em;
+    padding: 3em 2% 12em;
 }
 
 

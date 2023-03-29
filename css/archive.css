@@ -1,39 +1,36 @@
 .archive-info {
     margin: 6em 0 9em;
-}
-.project-detail .archive-info{
-    margin-bottom: 1em;
-}
-
-.archive-info-lite .archive-intro {
-    display: none;
+    padding: 2em 0;
+    border-bottom: 3px solid #1f1f1f;
+    border-top: 3px solid #1f1f1f;
 }
 
 .archive-title {
-    font: 4.8em/1 "Open Sans", sans-serif;
+    font: bold 1.2em/1 "Arimo", sans-serif;
     text-transform: lowercase;
+}
+
+.catchphrase {
+    font-size: 3em;
+    line-height: 1;
+    letter-spacing: -.03em;
+    margin-bottom: .5em;
 }
 
 .archive-title a {
     color: #000;
 }
 
-.archive-intro{
-    font-size: .9em;
-}
-
-.archive-intro p {
-    margin-bottom: .6em;
-}
-
-.archive-intro .subtitle {
-    font: bold small-caps .9em "Noto Sans Mono", monospace;
-    padding-right: 1em;
-    color: #333;
-}
-
-.archive-note{
+.archive-note {
     padding-top: 12em;
+}
+
+.article-type-post .archive-info {
+    padding: 4em 0;
+}
+
+.article-type-post .archive-info .catchphrase {
+    display: none;
 }
 
 @media screen and (min-width: 960px) {
@@ -46,24 +43,6 @@
 
     .archive {
         margin-right: -1.58%;
-    }
-
-    .archive-info {
-        display: flex;
-        display: -webkit-flex;
-        flex-flow: row wrap;
-    }
-
-    .project-archive-title {
-        width: 45.4%;
-        padding-right: 4.6%;
-    }
-
-    .archive-intro {
-        width: 45.4%;
-        padding-left: 4.6%;
-        border-left: .5em solid #333;
-        margin: 0 -.5em 0 0;
     }
 
 }
@@ -91,12 +70,20 @@
         margin-right: 3.7%;
     }
 
+
     .archive {
         margin-right: -3.7%;
     }
 
-    .project-archive-title {
-        margin-bottom: .5em;
+
+    .article-type-post .archive-info {
+        padding: 4em 1em;
+
     }
+
+    .article-type-post .archive-title {
+        text-align: center;
+    }
+
 
 }

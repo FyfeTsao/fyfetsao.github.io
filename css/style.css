@@ -33,14 +33,16 @@ body {
 }
 
 .cont {
-    padding: 0 3.125% 8em;
+    padding: 0 2% 8em;
     overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Arimo", sans-serif;
 }
-
+em.lan{
+    font: normal small-caps bold 12px "Noto Sans Mono", monospace;
+}
 :lang(zh), :lang(zh-TW), :lang(zh-HK) {
     font-family: "Noto Sans", "Noto Sans CJK TC", "Dengxian", "Microsoft JhengHei", sans-serif;
 }
@@ -153,10 +155,6 @@ table p {
     margin: 0;
 }
 
-.project-detail .article-gallery-img img {
-    max-width: 100%;
-    padding-bottom: 2em;
-}
 
 .text p {
     margin: 1em 0;
@@ -366,19 +364,6 @@ td {
 
     .l .series a {
         white-space: nowrap;
-    }
-
-    .project-detail .article-body {
-        display: flex;
-        display: -webkit-flex;
-        flex-flow: row wrap;
-    }
-
-    .project-detail .article-gallery {
-        margin-right: 4em;
-    }
-    .project-detail .article-cont{
-        width: 33%;
     }
 
 }
