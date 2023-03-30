@@ -1,9 +1,13 @@
 h1.article-tit {
-    font: 3em/1 sans-serif;
-    letter-spacing: .05em;
+    font: bold 1.62em/1.2 sans-serif;
+    letter-spacing: .02em;
     text-align: center;
+    margin-bottom: 2em;
 }
 
+.article-gallery {
+    margin: 0 auto 2em;
+}
 .article-gallery-img {
     display: block;
     max-width: 100%;
@@ -12,6 +16,7 @@ h1.article-tit {
 
 .article-cont p {
     margin: 0 0 1em;
+    line-height: 1.8;
 }
 
 .article-footer {
@@ -24,23 +29,12 @@ h1.article-tit {
 
 @media screen and (min-width: 960px) {
 
-    .article-gallery {
-        margin: 8em auto 6em;
-    }
-
     .article-cont {
         padding: 0 33%;
     }
 }
 
 @media screen and (max-width: 959px) {
-    h1.article-tit {
-        font: bold 1.5em/1.2 sans-serif;
-    }
-
-    .article-gallery {
-        margin: 3em auto 2em;
-    }
 
     .article-cont {
         max-width: 100%;

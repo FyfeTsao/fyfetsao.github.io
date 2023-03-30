@@ -1,6 +1,9 @@
 .header {
     font-size: 1.1em;
-    padding: 2.4em 2% 1.2em;
+    padding: 1.2em 2%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
 }
 .header,.footer .archives{
     color: #ccc;
@@ -8,28 +11,28 @@
 .header a, .footer a {
     color: #000;
 }
-.header a.navi:hover, .footer a:hover {
+.header a.project:hover, .footer a:hover {
     text-decoration: underline;
 }
-
+.header .navi{
+    padding: 2em 0;
+}
 .header .logo {
     font: 1.62em/1 "Arimo", sans-serif;
     font-weight: 700;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    margin-right: 1em;
+    text-align: center;
 }
 
-.header .navi {
+.header .project {
     font: bold 1em "Arimo", sans-serif;
     text-transform: lowercase;
     color: #1f1f1f;
+    letter-spacing: .05em;
 }
 
 footer.footer {
     font-size: .8em;
     clear: both;
-    background: #eaecef;
 }
 
 .footer .archives {
@@ -48,23 +51,15 @@ footer.footer {
 
 .footer .copyright {
     font: 1em "Arimo", sans-serif;
-    letter-spacing: .2em;
     padding: 3em 2% 12em;
 }
 
 
 @media screen and (min-width: 960px) {
-    .header {
-        display: flex;
-        display: -webkit-flex;
-        justify-content: space-between;
-        align-items: flex-end;
+    .header .navi {
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 959px) {
-    .header .logo {
-        display: block;
-        margin-bottom: .5em;
-    }
 }
