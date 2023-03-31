@@ -1,4 +1,4 @@
-h1.article-tit {
+h1.article-tit, .article-cont h1 {
     font: bold 1.62em/1.2 sans-serif;
     letter-spacing: .02em;
     text-align: center;
