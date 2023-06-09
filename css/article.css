@@ -16,8 +16,24 @@ h1.article-tit, .article-cont h1 {
 
 .article-cont p {
     margin: 0 0 1em;
-    line-height: 1.8;
+    line-height: 1.5;
 }
+
+.article-cont li{
+    margin-bottom: 2.5em;
+}
+
+.article-cont li h4{
+    margin-bottom: .75em;
+}
+
+.article-cont li li{
+    font-size: .9em;
+    letter-spacing: .01em;
+    margin-bottom: .5em;
+    line-height: 1.15;
+}
+
 
 .article-footer {
     font-size: .8em;
