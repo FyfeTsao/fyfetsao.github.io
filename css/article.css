@@ -13,7 +13,9 @@ h1.article-tit, .article-cont h1 {
     max-width: 100%;
     margin: 0 auto;
 }
-
+.article-cont h4{
+    margin: 1em 0;
+}
 .article-cont p {
     margin: 0 0 1em;
     line-height: 1.5;
