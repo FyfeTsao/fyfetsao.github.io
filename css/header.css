@@ -20,7 +20,6 @@
 .header .logo {
     font: 1.62em/1 "Arimo", sans-serif;
     font-weight: 700;
-    text-align: center;
 }
 
 .header .project {
@@ -56,9 +55,6 @@ footer.footer {
 
 
 @media screen and (min-width: 960px) {
-    .header .navi {
-        text-align: center;
-    }
 }
 
 @media screen and (max-width: 959px) {
