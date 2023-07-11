@@ -1,22 +1,27 @@
 .header {
     font-size: 1.1em;
-    padding: 1.2em 2%;
+    padding: 3em 2%;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
 }
-.header,.footer .archives{
+
+.header, .footer .archives {
     color: #ccc;
 }
+
 .header a, .footer a {
     color: #000;
 }
+
 .header a.project:hover, .footer a:hover {
     text-decoration: underline;
 }
-.header .navi{
+
+.header .navi {
     padding: 2em 0;
 }
+
 .header .logo {
     font: 1.62em/1 "Arimo", sans-serif;
     font-weight: 700;
@@ -38,11 +43,7 @@ footer.footer {
     padding: 4em 2% 3em;
     font-weight: bold;
 }
-.footer .archive-tit{
-    font-size: 1.62em;
-    font-family: "Arimo", sans-serif;
-    margin-right: 1em;
-}
+
 .footer .archives .archive-link {
     letter-spacing: .2em;
     color: #1f1f1f;

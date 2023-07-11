@@ -129,6 +129,13 @@ h4 {
     font-size: 1.2em;
 }
 
+.tit-inline{
+    font-family: "Arimo", sans-serif;
+    font-size: 1.62em;
+    line-height: 1;
+    padding-right: 1em;
+}
+
 sub, sup {
     display: block;
 }
