@@ -44,20 +44,20 @@ h1, h2, h3, h4, h5, h6 {
 em.lan{
     font: normal small-caps bold 12px "Noto Sans Mono", monospace;
 }
-:lang(zh), :lang(zh-TW), :lang(zh-HK) {
-    font-family: "Noto Sans", "Noto Sans CJK TC", "Dengxian", "Microsoft JhengHei", sans-serif;
+:lang(zh), :lang(zh-CN), :lang(zh-SG) {
+    font-family: "Noto Sans", "Noto Sans SC", "Dengxian", "Microsoft YaHei", sans-serif;
 }
 
-:lang(zh-CN), :lang(zh-SG) {
-    font-family: "Noto Sans", "Noto Sans CJK SC", "Dengxian", "Microsoft YaHei", sans-serif;
+:lang(zh-TW), :lang(zh-HK) {
+    font-family: "Noto Sans", "Noto Sans TC", "Dengxian", "Microsoft JhengHei", sans-serif;
 }
 
 :lang(jp) {
-    font-family: "Noto Sans", "Noto Sans CJK JP", "Yu Gothic", "Meiryo", sans-serif;
+    font-family: "Noto Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
 }
 
 :lang(ko) {
-    font-family: "Noto Sans", "Noto Sans CJK KR", "Malgun Gothic", sans-serif;
+    font-family: "Noto Sans", "Noto Sans KR", "Malgun Gothic", sans-serif;
 }
 
 :lang(mn), :lang(mnc) {
@@ -78,11 +78,11 @@ em.lan{
 }
 
 :lang(bo) {
-    font-family: "Noto Sans Tibetan", sans-serif;
+    font-family: "Noto Serif Tibetan", sans-serif;
 }
 
 :lang(ar), :lang(fa), :lang(ug), :lang(ur) {
-    font-family: "Noto Kufi Arabic", sans-serif;
+    font-family: "Noto Sans Arabic", sans-serif;
 }
 
 :lang(he) {
