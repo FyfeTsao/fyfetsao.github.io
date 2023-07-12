@@ -41,9 +41,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Arimo", sans-serif;
 }
-em.lan{
+
+h1:lang(zh), h2:lang(zh), h3:lang(zh), h4:lang(zh), h5:lang(zh), h6:lang(zh), h1:lang(zh) *, h2:lang(zh) *, h3:lang(zh) *, h4:lang(zh) *, h5:lang(zh) *, h6:lang(zh) * {
+    font-family: "Arimo", "Noto Sans SC", "Dengxian", "Microsoft YaHei", sans-serif;
+}
+
+em.lan {
     font: normal small-caps bold 12px "Noto Sans Mono", monospace;
 }
+
 :lang(zh), :lang(zh-CN), :lang(zh-SG) {
     font-family: "Noto Sans", "Noto Sans SC", "Dengxian", "Microsoft YaHei", sans-serif;
 }
@@ -130,7 +136,7 @@ h4 {
     font-size: 1.2em;
 }
 
-.tit-inline{
+.tit-inline {
     font-family: "Arimo", sans-serif;
     font-size: 1.62em;
     line-height: 1;
@@ -366,7 +372,6 @@ td {
     display: block;
     font-size: 2em;
 }
-
 
 
 @media screen and (min-width: 960px) {
