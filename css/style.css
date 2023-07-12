@@ -66,6 +66,7 @@ em.lan{
     -moz-writing-mode: vertical-lr;
     writing-mode: vertical-lr;
     layout-flow: vertical-ideographic;
+    text-orientation: sideways;
 }
 
 :lang(mn-MN) {
