@@ -1,35 +1,36 @@
 h1.article-tit, .article-cont h1 {
-    font: bold 1.62em/1.2 sans-serif;
-    letter-spacing: .02em;
-    text-align: center;
+    font-size: 2em;
+    line-height: 1.2;
     margin-bottom: 2em;
 }
 
 .article-gallery {
-    margin: 0 auto 2em;
+    margin-bottom: 2em;
 }
+
 .article-gallery-img {
     display: block;
     max-width: 100%;
-    margin: 0 auto;
 }
-.article-cont h4{
+
+.article-cont h4 {
     margin: 1em 0;
 }
+
 .article-cont p {
     margin: 0 0 1em;
     line-height: 1.5;
 }
 
-.article-cont li{
+.article-cont li {
     margin-bottom: 2.5em;
 }
 
-.article-cont li h4{
+.article-cont li h4 {
     margin-bottom: .75em;
 }
 
-.article-cont li li{
+.article-cont li li {
     font-size: .9em;
     letter-spacing: .01em;
     margin-bottom: .5em;
@@ -48,7 +49,7 @@ h1.article-tit, .article-cont h1 {
 @media screen and (min-width: 960px) {
 
     .article-cont {
-        padding: 0 33%;
+        max-width: 33em;
     }
 }
 

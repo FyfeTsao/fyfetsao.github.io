@@ -1,5 +1,5 @@
 .archive-info {
-    margin: 6em 0 9em;
+    margin: 6em 0;
     padding: 2em 0;
     border-bottom: 3px solid #1f1f1f;
     border-top: 3px solid #1f1f1f;
@@ -7,26 +7,26 @@
 
 .archive-title {
     font: bold 1.2em/1 "Arimo", sans-serif;
+    letter-spacing: .05em;
     text-transform: lowercase;
+}
+.archive-title a{
+    color: #1f1f1f;
+}
+.archive-title .separator{
+    font-weight: normal;
+    color: #ccc;
 }
 
 .catchphrase {
     font-size: 3em;
     line-height: 1;
-    letter-spacing: -.03em;
+    letter-spacing: -.05em;
     margin-bottom: .5em;
-}
-
-.archive-title a {
-    color: #000;
 }
 
 .archive-note {
     padding-top: 12em;
-}
-
-.article-type-post .archive-info {
-    padding: 4em 0;
 }
 
 .article-type-post .archive-info .catchphrase {
