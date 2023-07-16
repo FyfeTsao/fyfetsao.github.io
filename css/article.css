@@ -49,7 +49,7 @@ h1.article-tit, .article-cont h1 {
 @media screen and (min-width: 960px) {
 
     .article-cont {
-        max-width: 33em;
+        max-width: 24em;
     }
 }
 

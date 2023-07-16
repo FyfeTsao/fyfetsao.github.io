@@ -1,6 +1,6 @@
 .header {
     font-size: 1.1em;
-    padding: 3em 2%;
+    padding: 3.2em 2%;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
 }
 
 .header .navi {
-    padding: 2em 0;
+    padding: 1.6em 0;
 }
 
 .header .logo {
