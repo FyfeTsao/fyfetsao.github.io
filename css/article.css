@@ -17,24 +17,19 @@ h1.article-tit, .article-cont h1 {
     margin: 1em 0;
 }
 
-.article-cont p {
+.article-cont p,.article-cont ul {
     margin: 0 0 1em;
     line-height: 1.5;
 }
 
-.article-cont li {
-    margin-bottom: 2.5em;
+.article-cont ul {
+    list-style: inside;
 }
 
-.article-cont li h4 {
-    margin-bottom: .75em;
-}
-
-.article-cont li li {
-    font-size: .9em;
-    letter-spacing: .01em;
-    margin-bottom: .5em;
-    line-height: 1.15;
+.article-cont blockquote {
+    display: block;
+    padding: 0 0 0 1em;
+    border-left: .2em solid #ccc;
 }
 
 

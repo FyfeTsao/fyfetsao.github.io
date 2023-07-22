@@ -103,6 +103,10 @@ em.lan {
     font-family: "Noto Sans Thai", sans-serif;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 .clearfix:before, .clearfix:after {
     display: table;
     content: " ";
