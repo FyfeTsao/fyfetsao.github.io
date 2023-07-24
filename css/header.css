@@ -40,7 +40,7 @@ footer.footer {
 }
 
 .footer .archives {
-    padding: 4em 2% 3em;
+    padding: 4em 2% 2em;
     font-weight: bold;
 }
 
@@ -48,7 +48,10 @@ footer.footer {
     letter-spacing: .2em;
     color: #1f1f1f;
 }
-
+.footer .contact{
+    padding: 0 2% 8em;
+    letter-spacing: .2em;
+}
 .footer .copyright {
     font: 1em "Arimo", sans-serif;
     padding: 3em 2% 12em;
