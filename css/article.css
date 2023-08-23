@@ -32,6 +32,20 @@ h1.article-tit, .article-cont h1 {
     border-left: .2em solid #ccc;
 }
 
+.article-series{
+    font-size: .9em;
+    letter-spacing: .1em;
+    padding: 1em;
+    border: .2em solid #1f1f1f;
+    margin-bottom: 2em;
+}
+
+.text-extralarge{
+    font-size: 3em;
+}
+.text-large{
+    font-size: 2em;
+}
 
 .article-footer {
     font-size: .8em;
