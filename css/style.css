@@ -89,6 +89,7 @@ em.lan {
 
 :lang(ar), :lang(fa), :lang(ug), :lang(ur) {
     font-family: "Noto Sans Arabic", sans-serif;
+    letter-spacing: 0;
 }
 
 :lang(he) {

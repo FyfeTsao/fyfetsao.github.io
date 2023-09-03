@@ -13,7 +13,7 @@ h1.article-tit, .article-cont h1 {
     max-width: 100%;
 }
 
-.article-cont h4 {
+.article-cont h4,.article-cont h5 {
     margin: 1em 0;
 }
 
@@ -32,12 +32,18 @@ h1.article-tit, .article-cont h1 {
     border-left: .2em solid #ccc;
 }
 
-.article-series{
+.article-section{
     font-size: .9em;
     letter-spacing: .1em;
     padding: 1em;
-    border: .2em solid #1f1f1f;
+    border: .22em solid #4d4d4d;
     margin-bottom: 2em;
+}
+
+.article-section h5{
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .text-extralarge{
