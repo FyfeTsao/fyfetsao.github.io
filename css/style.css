@@ -74,6 +74,9 @@ em.lan {
     layout-flow: vertical-ideographic;
     text-orientation: sideways;
 }
+.l .title:lang(mn), .l .title:lang(mnc){
+    line-height: normal;
+}
 
 :lang(mn-MN) {
     font-family: "Noto Sans", sans-serif;
