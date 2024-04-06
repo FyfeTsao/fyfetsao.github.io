@@ -196,14 +196,19 @@ table p {
 
 table {
     width: 100%;
+    text-align: left;
     border-collapse: collapse;
     border: none;
     margin-bottom: 4em;
 }
+thead{
+    border-bottom: .2em solid #000;
+    font-size: 1.2em;
+}
 
-td {
-    border: 1px solid #000;
-    padding: .25em;
+th,td{
+    padding: 1em 2em 1em 0;
+    vertical-align: top;
 }
 
 .text li h4 {
