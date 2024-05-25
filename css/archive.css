@@ -1,8 +1,8 @@
 .archive-info {
-    margin: 6em 0;
-    padding: 2em 0;
-    border-bottom: 3px solid #1f1f1f;
+    margin: 0 0 8em;
+    padding: 6em 0 0;
     border-top: 3px solid #1f1f1f;
+    text-align: center;
 }
 
 .archive-title {
@@ -19,10 +19,10 @@
 }
 
 .catchphrase {
-    font-size: 3em;
-    line-height: 1;
-    letter-spacing: -.05em;
-    margin-bottom: .5em;
+    font-size: 1em;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    margin-top: 1.5em;
 }
 
 .archive-note {
