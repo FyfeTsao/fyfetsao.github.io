@@ -412,10 +412,6 @@ th,td{
         margin: 0;
     }
 
-    .l img {
-        display: block;
-        margin: 0 auto .8em;
-    }
 
     /* 202207 list of projects */
     .project-list {
