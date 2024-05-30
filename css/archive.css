@@ -33,6 +33,10 @@
     display: none;
 }
 
+.archive-hp{
+    justify-content: center;
+}
+
 @media screen and (min-width: 960px) {
 
     /* 7 items; content:space=8:1 */

@@ -230,11 +230,11 @@ th,td{
     overflow: hidden;
 }
 
-.archive .post a {
+.archive .post img {
     display: block;
 }
 
-.archive .post a h4 {
+.archive .post h4 {
     color: #000;
     line-height: 1.2;
     margin-bottom: .4em;
