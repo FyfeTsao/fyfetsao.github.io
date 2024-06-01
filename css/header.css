@@ -1,6 +1,6 @@
 .header {
     font-size: 1.1em;
-    padding: 3.2em 2%;
+    padding: 2.4em 2% 0;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -50,12 +50,11 @@ footer.footer {
     color: #1f1f1f;
 }
 .footer .contact{
-    padding: 0 2% 8em;
-    letter-spacing: .2em;
+    padding: 0 2% 4em;
 }
 .footer .copyright {
     font: 1em "Arimo", sans-serif;
-    padding: 3em 2% 12em;
+    padding: 3em 2% 6em;
 }
 
 
