@@ -6,7 +6,7 @@
 }
 
 .archive-title {
-    font: bold 1.28em/1 "Arimo", sans-serif;
+    font: bold 1.4em/1 "Arimo", sans-serif;
     letter-spacing: .032em;
     text-transform: lowercase;
 }
@@ -18,10 +18,7 @@
     color: #ccc;
 }
 
-.catchphrase {
-    font-size: 1em;
-    line-height: 1.5;
-    letter-spacing: .05em;
+.archive-info .intro {
     margin-top: 1.5em;
 }
 
